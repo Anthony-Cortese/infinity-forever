@@ -1,0 +1,28 @@
+.eye-div {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    right: 2rem;
+    
+}
+.eye {
+  display: block;
+  position: relative;
+  transform: scaleX(0.2) scaleY(0.2);
+}
+  
+  #eye-test, #test {
+    animation: blink 6s infinite;
+    opacity: .6;
+    color: pink;
+  }
+  
+  @keyframes blink {
+    10% {
+      transform: none;
+    }
+    90% {
+      transform: translateY(380px) scaleY(0)
+    }
+  }

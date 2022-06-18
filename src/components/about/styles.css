@@ -1,0 +1,297 @@
+@import url(//db.onlinewebfonts.com/c/fc0a229e53c3bef400b3c5ade6609539?family=Daddy+Longlegs+NF);
+
+@font-face {font-family: "Daddy Longlegs NF"; src: url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.eot"); src: url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.woff") format("woff"), url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.svg#Daddy Longlegs NF") format("svg"); }
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Daddy Longlegs NF";
+    font-size: 20rem;
+    position: relative;
+    top: 41rem;
+    /* border: 10px solid red;
+    height: 70%;
+    width: 30%;
+    border-radius: 100%; */
+}
+.logo-name1 {
+    font-family: "Daddy Longlegs NF";
+    font-size: 20rem;
+    position: relative;
+    bottom: 30rem;
+    /* border: 10px solid red;
+    height: 70%;
+    width: 30%;
+    border-radius: 100%; */
+}
+/* .logo-name2 {
+    font-family: "Daddy Longlegs NF";
+    font-size: 7rem;
+    position: relative;
+    bottom: 24rem;
+    border: 10px solid red;
+} */
+.about-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+
+.about-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+}
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-color: black;
+    background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ;
+}
+
+.about-info {
+    align-items: center;
+    text-align: center;
+    min-height: 40vh;
+    width: 100%;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.neon_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    height: 25rem;
+    width: 100%;
+    border-radius: 100%;
+  }
+  h6 {
+    color:#FF00E6;
+    font-family: "Daddy Longlegs NF";
+    letter-spacing:10px;
+    animation: text-flicker 6s linear infinite;
+    font-size: 2rem;
+  }
+ .flicker-slow {
+    color:#FF00E6;
+    font-family: "Daddy Longlegs NF";
+    letter-spacing:10px;
+    animation: text-flicker 6s linear infinite;
+    font-size: 20rem;
+    height: 100vh;
+  }
+
+  .flicker-slow1 {
+    color:#FF00E6;
+    font-family: "Daddy Longlegs NF";
+    letter-spacing:10px;
+    animation: text-flicker 10s linear ease-in-out;
+    font-size: 20rem;
+    height: 100vh;
+  }
+
+  .flicker-slow2 {
+    color:#FF00E6;
+    font-family: "Daddy Longlegs NF";
+    letter-spacing:10px;
+    animation: text-flicker 12s linear infinite;
+    font-size: 20rem;
+  }
+  .flicker-slow3 {
+    color:#FF00E6;
+    font-family: "Daddy Longlegs NF";
+    letter-spacing:10px;
+    animation: text-flicker 4s linear infinite;
+    font-size: 7rem;
+    position: relative;
+    bottom: 60rem;
+  }
+
+  @keyframes text-flicker {
+    
+  }
+  
+  #offset {
+    animation: letter-flicker 5s linear ease-out;
+  }
+  
+  @keyframes text-flicker {
+    0% {
+      opacity:0;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    
+    2% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    8% {
+      opacity:0;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    9% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    12% {
+      opacity:0;
+      text-shadow: 0px 0px rgba(242, 22, 22, 1);
+    }
+    20% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    25% {
+      opacity:0.3;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    30% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    70% {
+      opacity:0.7;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    72% {
+      opacity:0.2;
+      text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    77% {
+      opacity:.9;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    100% {
+      opacity:.9;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+  }
+  
+  /* @keyframes border-flicker {
+    0% {
+      opacity:0.1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    2% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    4% {
+      opacity:0.1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    
+    8% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    70% {
+      opacity:0.7;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    100% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+  } */
+  
+  @keyframes letter-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    2% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    4% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    
+    
+    19% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    21% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    23% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    
+    80% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    83% {
+      opacity:0.4;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    87% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+  }
+
+  #about-imgs {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .big-about-img {
+    height: 75%;
+    width: 70%;
+    border: 2px solid red;
+  }
+
+  .img-container {
+    height: 75%;
+    width: 30%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .tony {
+    height: 45%;
+    width: 60%;
+  }

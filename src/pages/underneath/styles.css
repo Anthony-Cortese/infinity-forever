@@ -1,0 +1,127 @@
+#botton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.bottom-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    width: 99vw;
+    border: 7px solid black;
+    background-color: black;
+}
+.large-bottom-div {
+    height: 85%;
+    width: 95%;
+    border: 1px solid black;
+}
+
+.large-bottom-img {
+    object-fit: contain;
+    height: 85%;
+    width: 95%;
+    border: 1px solid black;
+}
+.film-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    padding: -8px;
+}
+
+.title {
+    color: white;
+}
+
+#bottom-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 25%;
+    background-color: black;
+    border: 4px dotted gray;
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+
+.bottom-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 30%;
+    width: 100%;
+    object-fit: cover;
+    
+    /* border: 1px solid blue; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.bottom-img {
+    justify-content: space-between;
+    max-height: 40%;
+    width: 35%;
+    border-radius: 4.5rem;
+    padding: 3rem;
+}
+
+#bottom-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50vh;
+}
+
+.bottom-info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60vw;
+}
+
+.movie-poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+    margin-right: 8%;
+}
+
+.botton-film {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.poster {
+    height: 80%;
+    width: 300px;
+    display: flex;
+}
+
+.title1 {
+    color: white;
+}
+
+.dotted-line {
+  border-bottom: 4px dotted gray;
+  color: white;
+  background-color: black;
+  height: 4px;
+  width: 100vw;
+}

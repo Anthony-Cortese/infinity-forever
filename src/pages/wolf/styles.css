@@ -1,0 +1,34 @@
+#wolf-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 25%;
+    background-color: black;
+    border: 4px dotted gray;
+   color: white;
+  background-color: black;
+  width: 100%;
+}
+
+.large-wolf-div {
+    background-color: black;
+    height: 100vh;
+}
+
+.wolf-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 30%;
+    width: 100%;
+    object-fit: cover;
+    
+    /* border: 1px solid blue; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+}

@@ -1,0 +1,43 @@
+#navbar {
+    height: 3rem;
+    background-color: black;
+}
+
+.full-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.logos-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: white; */
+    /* padding: 4px; */
+    width: 10%;
+    position: relative;
+    right: 2rem;
+}
+
+.infinity-print {
+    position: relative;
+    bottom:5.5rem;
+    right: 4.2rem;
+}
+
+.logos-icon {
+    color: white;
+    height: 3rem;
+    width: 1.5rem;
+    position: relative;
+    right: 1rem;
+
+}

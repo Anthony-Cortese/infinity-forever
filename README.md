@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<>
+      <section id="about">
+        <div className="about-div">
+          <div className="flicker-slow">
+            <h3 className="neon_text">
+              <span className="flicker-slow">Infi</span>
+              <span className="flicker-slow1">nity</span>{" "}
+            </h3>
+            <h3 className="neon_text">
+              <span className="flicker-slow">F</span>
+              <span className="flicker-fast">∞</span>
+              <span className="flicker-slow1">ever</span>
+            </h3>
+          </div>
+        </div>
+
+        <div className="about-info">
+          <p></p>
+        </div>
+        <div className="about-imgs"></div>
+      </section>
+    </>
