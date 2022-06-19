@@ -4,10 +4,16 @@ import joint from "../../pages/hollywood/pictures/joint.png";
 import together from "../../pages/wolf/pictures/Together.png";
 import sean from "../../pages/underneath/pictures/Sean at car.png";
 import siggy from "../../pages/screwjack/pictures/siggy.png";
+import Coming from "./Coming";
 
 function Films() {
   return (
     <>
+      <section id="coming">
+        <div className="coming-div">
+          <Coming />
+        </div>
+      </section>
       <section id="second-movie-row">
         <div className="movie-2">
           <div className="holly">

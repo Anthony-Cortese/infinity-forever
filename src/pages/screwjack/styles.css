@@ -5,35 +5,19 @@
     background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ;
 }
 
-.large-screwjack-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 88%;
-    width: 100%;
-}
 
 .large-screwjack-img {
     height: 100%;
     width: 100%;
 }
 
-.screw-info {
-    width: 99%;
-    padding: 4px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-}
 
 #screwjack-info {
     width: 100%;
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
 
 }
@@ -45,11 +29,18 @@
 
 .screw-actors {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    min-height: 100%;
-    min-width: 65%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
     border: 1px solid orange;
+    height: 100%;
+    min-width: 35%;
 }
 
+.screw-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}

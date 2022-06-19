@@ -6,6 +6,7 @@ import together from "../../pages/wolf/pictures/Together.png";
 import sean from "../../pages/underneath/pictures/Sean at car.png";
 import siggy from "../../pages/screwjack/pictures/siggy.png";
 import Films from "./Films";
+import Coming from "./Coming";
 
 function Dashboard() {
   return (
@@ -26,7 +27,7 @@ function Dashboard() {
           <h4 className="title">SCREW JACK</h4>
           <h4 className="title">2022</h4>
         </div>
-        <div className="dotted-line-dash"></div>
+        {/* <div className="dotted-line-dash"></div> */}
       </section>
       <Films />
     </>

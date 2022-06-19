@@ -15,10 +15,10 @@ function App() {
       <Navbar />
       <Dashboard />
       {/* <About /> */}
-      {/* <Screwjack />
+      <Screwjack />
       <Bottom />
       <Wolf />
-      <Hollywood /> */}
+      <Hollywood />
       {/* <Infinity /> */}
       <Copyright />
     </div>

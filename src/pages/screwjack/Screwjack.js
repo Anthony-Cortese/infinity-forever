@@ -39,13 +39,27 @@ function Screwjack() {
         </div>
         <div className="screwjack-film">
           <div className="screw-actors">
-            <p className="title1">Directed by:</p>
-            <p className="title1">Anthony Cortese</p>
-            <p className="title1">Adapted by:</p>
-            <p className="title1">Sean Cortese</p>
-            <p className="title1">Starring:</p>
-            <p className="title1">Anthony Cortese</p>
-            <p className="title1">Sean Cortese</p>
+            <ul className="title1">
+              <strong>Directed by:</strong> Anthony Cortese
+            </ul>
+            {/* <li className="title1">Anthony Cortese</li> */}
+            <ul className="title1">
+              <strong>Adapted by:</strong> Sean Cortese
+            </ul>
+            {/* <li className="title1">Sean Cortese</li> */}
+            <ul className="title1">
+              <strong>Starring: </strong>Sean Cortese, Anthony Cortese
+            </ul>
+            <ul className="title1">
+              <strong>Edited by:</strong> Anthony Cortese
+            </ul>
+            <ul className="title1">
+              <strong>Produced by:</strong> Infinity Forever Productions
+            </ul>
+            <ul className="title1">
+              <strong>Year:</strong> 2022
+            </ul>
+            {/* <li className="title1">Sean Cortese</li> */}
           </div>
           <div className="bottom-description"></div>
         </div>
