@@ -5,26 +5,18 @@
 .logo-name {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-family: "Daddy Longlegs NF";
-    font-size: 20rem;
-    position: relative;
-    top: 41rem;
-    /* border: 10px solid red;
-    height: 70%;
-    width: 30%;
-    border-radius: 100%; */
+    font-size: 25%;
 }
 .logo-name1 {
-    font-family: "Daddy Longlegs NF";
-    font-size: 20rem;
-    position: relative;
-    bottom: 30rem;
-    /* border: 10px solid red;
-    height: 70%;
-    width: 30%;
-    border-radius: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Daddy Longlegs NF";
+  font-size: 15rem;
 }
 /* .logo-name2 {
     font-family: "Daddy Longlegs NF";
@@ -36,26 +28,26 @@
 .about-logo {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     justify-content: center;
     align-items: center;
-    height: 20vh;
-    width: 100%;
 }
 
 .about-div {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    height: 40vh;
+    height: 20vh;
     width: 100%;
+    border: 3px solid orange;
 }
 #about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 110vh;
+    min-height: 60vh;
     background-color: black;
     background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ;
 }
@@ -72,27 +64,27 @@
 .neon_box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align:center;
     align-items: center;
-    height: 25rem;
+    /* height: 25rem; */
     width: 100%;
     border-radius: 100%;
   }
-  h6 {
+  /* h6 {
     color:#FF00E6;
     font-family: "Daddy Longlegs NF";
     letter-spacing:10px;
     animation: text-flicker 6s linear infinite;
     font-size: 2rem;
-  }
+  } */
  .flicker-slow {
     color:#FF00E6;
     font-family: "Daddy Longlegs NF";
     letter-spacing:10px;
     animation: text-flicker 6s linear infinite;
-    font-size: 20rem;
-    height: 100vh;
+    font-size: 10rem;
+    /* height: 100vh; */
   }
 
   .flicker-slow1 {
@@ -100,16 +92,15 @@
     font-family: "Daddy Longlegs NF";
     letter-spacing:10px;
     animation: text-flicker 10s linear ease-in-out;
-    font-size: 20rem;
-    height: 100vh;
+    font-size: 10rem;
+    /* height: 100vh; */
   }
-
   .flicker-slow2 {
     color:#FF00E6;
     font-family: "Daddy Longlegs NF";
     letter-spacing:10px;
     animation: text-flicker 12s linear infinite;
-    font-size: 20rem;
+    font-size: 13rem;
   }
   .flicker-slow3 {
     color:#FF00E6;
@@ -117,8 +108,6 @@
     letter-spacing:10px;
     animation: text-flicker 4s linear infinite;
     font-size: 7rem;
-    position: relative;
-    bottom: 60rem;
   }
 
   @keyframes text-flicker {

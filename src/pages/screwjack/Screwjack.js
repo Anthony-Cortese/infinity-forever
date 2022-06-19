@@ -22,7 +22,8 @@ function Screwjack() {
               alt="large-underneath-bottom"
               src={title}
             ></img>
-            <div className="film-info">
+
+            <div className="screw-info">
               <h4 className="title">FILM</h4>
               <h4 className="title">SCREW JACK</h4>
               <h4 className="title">2021</h4>
@@ -37,7 +38,7 @@ function Screwjack() {
           <img className="poster" alt="eye" src={movie}></img>
         </div>
         <div className="screwjack-film">
-          <div className="bottom-info2">
+          <div className="screw-actors">
             <p className="title1">Directed by:</p>
             <p className="title1">Anthony Cortese</p>
             <p className="title1">Adapted by:</p>

@@ -12,6 +12,7 @@ function Copyright() {
         />
       </div>
       <p>Copyright © 2021 | Anthony Cortese</p>
+      <p>Copyright © 2010 | Infinity Forever Productions</p>
     </section>
   );
 }

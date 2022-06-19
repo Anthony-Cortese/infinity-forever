@@ -1,10 +1,12 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  border-left: 2rem solid black;
+  border-right: 2rem solid black;
+  background-color: black;
 }
 
-body {
-  background-color: black;
+#body {
+  border-left: 3rem solid black;
 }
 
 .App-logo {
