@@ -1,3 +1,4 @@
+import { Route, Switch, Link } from "react-router-dom";
 import About from "./components/about/About";
 import Dashboard from "./components/dashboard/Dashboard";
 import Infinity from "./components/Infinity";
@@ -13,13 +14,16 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
+      <About />
+
       <Dashboard />
-      {/* <About /> */}
+
       <Screwjack />
       <Bottom />
       <Wolf />
       <Hollywood />
-      {/* <Infinity /> */}
+
       <Copyright />
     </div>
   );
