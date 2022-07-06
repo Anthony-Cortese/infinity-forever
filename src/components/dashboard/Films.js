@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 import joint from "../../pages/hollywood/pictures/joint.png";
 import together from "../../pages/wolf/pictures/Together.png";
 import sean from "../../pages/underneath/pictures/Sean at car.png";
 import siggy from "../../pages/screwjack/pictures/siggy.png";
+import tv from "../../pages/hollywood/pictures/tv.png";
 import Coming from "./Coming";
 
 function Films() {
@@ -17,7 +19,9 @@ function Films() {
       <section id="second-movie-row">
         <div className="movie-2">
           <div className="holly">
-            <img className="together" src={siggy} alt="together" />
+            <Link to="/Screwjack">
+              <img className="together" src={siggy} alt="together" />
+            </Link>
           </div>
           <div className="dash-info1">
             <h4 className="title">FILM</h4>
@@ -28,7 +32,9 @@ function Films() {
         </div>
         <div className="movie-1">
           <div className="holly">
-            <img className="together" src={joint} alt="together" />
+            <Link to="/OnceUponATimeInProvo">
+              <img className="together" src={tv} alt="together" />
+            </Link>
           </div>
           <div className="dash-info">
             <h4 className="title">FILM</h4>
@@ -41,7 +47,9 @@ function Films() {
       <section id="second-movie-row1">
         <div className="movie-2">
           <div className="holly">
-            <img className="together" src={together} alt="together" />
+            <Link to="/Venice">
+              <img className="together" src={together} alt="together" />
+            </Link>
           </div>
           <div className="dash-info1">
             <h4 className="title">FILM</h4>
@@ -52,7 +60,9 @@ function Films() {
         </div>
         <div className="movie-1">
           <div className="holly">
-            <img className="together" src={sean} alt="together" />
+            <Link to="/UnderneathTheBottom">
+              <img className="together" src={sean} alt="together" />
+            </Link>
           </div>
           <div className="dash-info">
             <h4 className="title">FILM</h4>

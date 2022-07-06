@@ -6,29 +6,28 @@ function Coming() {
     <>
       <section id="coming">
         <div className="title-side">
-          {/* <p className="title1">COMING SOON</p> */}
           <p className="title3">COMING SOON</p>
         </div>
 
         <div className="coming-soon">
           <p>UNTITLED</p>
-          <p>OSCARS 2023</p>
-          <p>PROJECT</p>
+          <p>SLC OSCARS PROJECT</p>
+          <p>2023</p>
         </div>
         <div className="coming-soon">
           <p>UNTITLED</p>
-          <p>OSCARS 2023</p>
-          <p>PROJECT</p>
+          <p>SLC OSCARS PROJECT</p>
+          <p>2023</p>
         </div>
         <div className="coming-soon">
           <p>UNTITLED</p>
-          <p>OSCARS 2023</p>
-          <p>PROJECT</p>
+          <p>SHORT FILM PROJECT</p>
+          <p>HORROR 2023</p>
         </div>
         <div className="coming-soon">
-          <p>UNTITLED</p>
-          <p>OSCARS 2023</p>
-          <p>PROJECT</p>
+          <p>TV PILOT</p>
+          <p>IN DEVELOPMENT</p>
+          <p>UNKNOWN</p>
         </div>
 
         {/* <div className="dotted-line-dash"></div> */}

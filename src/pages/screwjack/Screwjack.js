@@ -64,23 +64,22 @@ function Screwjack() {
             </ul>
             {/* <li className="title1">Sean Cortese</li> */}
           </div>
-          <div className="bottom-description">
-            <p>
-              Adapted from Hunter S. Thompson’s short novel, “Screwjack” is the
-              story of a rapturous night in 1969 where Hunter was on deadline to
-              finish a story, without of his normal cocktail of alchohol &amp;
-              psychedelics Thompson is forced to come up with a story on his own
-              volition at least that is how he remembers it. Take a look back at
-              what would be the beginning of the Gonzo journalist’s bizarre yet
-              revolutionizing way of putting himself right in the tornado of the
-              articles he would write for Rolling Stone magazine as well as his
-              novels. An ode to Dr. Thompson this was a passion project that
-              came out of love for Thompson’s writing whose work seems more
-              relevant today than ever before. Sit back and watch the savage
-              birth of the most prolific and fearless writer of the 20 th
-              century.
-            </p>
-          </div>
+        </div>
+        <div className="bottom-description">
+          <p>
+            Adapted from Hunter S. Thompson’s short novel, “Screwjack” is the
+            story of a rapturous night in 1969 where Hunter was on deadline to
+            finish a story, without of his normal cocktail of alchohol &amp;
+            psychedelics Thompson is forced to come up with a story on his own
+            volition at least that is how he remembers it. Take a look back at
+            what would be the beginning of the Gonzo journalist’s bizarre yet
+            revolutionizing way of putting himself right in the tornado of the
+            articles he would write for Rolling Stone magazine as well as his
+            novels. An ode to Dr. Thompson this was a passion project that came
+            out of love for Thompson’s writing whose work seems more relevant
+            today than ever before. Sit back and watch the savage birth of the
+            most prolific and fearless writer of the 20 th century.
+          </p>
         </div>
       </section>
       <section id="wolf-photos">

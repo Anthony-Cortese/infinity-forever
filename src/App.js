@@ -19,10 +19,14 @@ function App() {
 
         <Route exact path="/Productions" element={<Dashboard />}></Route>
 
-        {/* <Screwjack />
-        <Bottom />
-        <Wolf />
-        <Hollywood /> */}
+        <Route exact path="/Screwjack" element={<Screwjack />}></Route>
+        <Route exact path="/UnderneathTheBottom" element={<Bottom />}></Route>
+        <Route exact path="/Venice" element={<Wolf />}></Route>
+        <Route
+          exact
+          path="/OnceUponATimeInProvo"
+          element={<Hollywood />}
+        ></Route>
       </Routes>
       <Copyright />
     </div>
