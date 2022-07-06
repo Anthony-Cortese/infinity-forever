@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { BsYoutube } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import "./styles.css";
@@ -10,8 +10,13 @@ function Navbar() {
       <div className="full-navbar">
         <div className="navigation">
           <li className="navigation">
-            <ul>ABOUT</ul>
-            <ul>PRODUCTIONS</ul>
+            <Link to="/">
+              {" "}
+              <ul>ABOUT</ul>{" "}
+            </Link>
+            <Link to="/Productions">
+              <ul>PRODUCTIONS</ul>
+            </Link>
             <ul>SLC OSCARS</ul>
           </li>
         </div>

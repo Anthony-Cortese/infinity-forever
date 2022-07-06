@@ -1,4 +1,4 @@
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Switch, Link, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import Dashboard from "./components/dashboard/Dashboard";
 import Infinity from "./components/Infinity";
@@ -14,16 +14,16 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Routes>
+        <Route exact path="/" element={<About />}></Route>
 
-      <About />
+        <Route exact path="/Productions" element={<Dashboard />}></Route>
 
-      <Dashboard />
-
-      <Screwjack />
-      <Bottom />
-      <Wolf />
-      <Hollywood />
-
+        {/* <Screwjack />
+        <Bottom />
+        <Wolf />
+        <Hollywood /> */}
+      </Routes>
       <Copyright />
     </div>
   );
