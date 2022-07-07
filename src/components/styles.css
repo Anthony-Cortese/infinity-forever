@@ -25,6 +25,10 @@
     text-decoration: none;
 }
 
+ul {
+    text-decoration: none;
+}
+
     ul:visited {
         text-decoration: none;
 }
@@ -49,7 +53,7 @@ ul:hover, ul:active { text-decoration: none;}
 .infinity-print {
     position: relative;
     bottom:7rem;
-    /* right: 4.2rem; */
+    /* left: 4.2rem; */
 }
 
 .logos-icon {

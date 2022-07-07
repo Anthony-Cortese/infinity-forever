@@ -194,3 +194,35 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media only screen and (max-width: 1250px) {
+    #second-movie-row {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    #second-movie-row1 {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .movie-1 {
+        min-width: 80%;
+    }
+
+    .movie-2 {
+        min-width: 80%;
+    }
+
+    .dash-info {
+        min-width: 100%;
+        justify-content: space-between;
+    }
+    .dash-info1 {
+        min-width: 100%;
+        justify-content: space-between;
+    }
+}
+

@@ -9,6 +9,7 @@ import Screwjack from "./pages/screwjack/Screwjack";
 import Bottom from "./pages/underneath/Bottom";
 import Wolf from "./pages/wolf/Wolf";
 import "./App.css";
+import Logo from "./pages/Logo";
 
 function App() {
   return (
