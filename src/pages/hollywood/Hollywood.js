@@ -8,7 +8,7 @@ import rick from "./pictures/rick.png";
 import terry from "./pictures/terry.png";
 import tv from "./pictures/tv.png";
 import poster from "./pictures/movie poster.png";
-import black from "./pictures/black.png";
+import hollywood from "./pictures/HOLLYWOOD.png";
 
 function Hollywood() {
   return (
@@ -19,7 +19,7 @@ function Hollywood() {
             <img
               className="large-hollywood-img"
               alt="large-underneath-bottom"
-              src={black}
+              src={hollywood}
             ></img>
             <div className="film-info">
               <h4 className="title">FILM</h4>

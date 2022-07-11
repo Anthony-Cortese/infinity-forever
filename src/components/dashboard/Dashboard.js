@@ -12,7 +12,11 @@ function Dashboard() {
   return (
     <>
       <section id="dashboard-div">
-        <div className="img-container">
+        <div className="img-container1">
+          <div className="signs-dash">
+            <div className="sign-dash"> </div>
+            <div className="sign-dash1"> </div>
+          </div>
           <div className="featured-div">
             <img
               className="large-screwjack-img"

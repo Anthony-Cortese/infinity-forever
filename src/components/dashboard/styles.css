@@ -51,13 +51,13 @@
     border-radius: 12px;
     background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png");
 }
-.img-container {
+.img-container1 {
     max-height: 100%;
     width: 100%;
     border: 2px solid black;
     display: flex;
-    justify-content: flex-start;
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 
 .featured-div {
@@ -70,6 +70,12 @@
 
 .large-screwjack-img {
     height: 90vh;
+    
+
+}
+
+.large-screwjack-img:hover {
+
 }
 
 #second-movie-row {
@@ -193,6 +199,44 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.signs-dash {
+    height: 80vh;
+    position: absolute;
+    min-width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .sign-dash {
+    position: relative;
+    width: 1150px;
+    height: 580px;
+    
+  }
+
+  .sign-dash:before,
+.sign-dash:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 380px;
+  border: 70px solid white;
+  opacity: .5;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  transform: rotate(45deg);
+
+}
+.sign-dash:after {
+  left: auto;
+  right: 0;
+  transform: rotate(-135deg);
 }
 
 @media only screen and (max-width: 1250px) {

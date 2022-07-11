@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/fc0a229e53c3bef400b3c5ade6609539?family=Daddy+Longlegs+NF);
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 @font-face {font-family: "Daddy Longlegs NF"; src: url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.eot"); src: url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.woff") format("woff"), url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/fc0a229e53c3bef400b3c5ade6609539.svg#Daddy Longlegs NF") format("svg"); }
 
 .logo-name {
@@ -17,6 +17,8 @@
     bottom: 24rem;
     border: 10px solid red;
 } */
+
+
 
 .about-div {
     display: flex;
@@ -36,8 +38,8 @@
     align-items: center;
     min-height: 80vh;
     background-color: black;
-    /* background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ; */
-    background:
+    background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ;
+    /* background:
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0,
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px,
@@ -46,7 +48,7 @@ radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,25
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
 linear-gradient(45deg, #000000 0%, #262626 20%, #3d3d3d 30%, #692462 40%, #7d2a75 50%, #681d61 60%, #4e0e47 70%, #7e0572 80%, #991a8c 90%, #FF00E6 100%);
 background-size: 470px 470px, 970px 970px, 910px 910px, 810px 810px, 730px 730px, 830px 830px, 100% 100%;
-background-color: #840b2a;
+background-color: #840b2a; */
 }
 
 .about-info {
@@ -74,38 +76,49 @@ background-color: #840b2a;
   } */
  .flicker-slow {
     color:#FF00E6;
-    font-family: "Daddy Longlegs NF";
+    font-family: "Sacramento", cursive;
     letter-spacing:10px;
     animation: text-flicker 6s linear infinite;
-    font-size: 13rem;
+    font-size: 10rem;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     /* height: 100vh; */
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
   }
 
-  .flicker-slow1 {
+  .flicker-slow {
     color:#FF00E6;
-    font-family: "Daddy Longlegs NF";
+    font-family: "Sacramento", cursive;
     letter-spacing:10px;
     animation: text-flicker 10s linear ease-in-out;
-    font-size: 13rem;
-    /* height: 100vh; */
+    font-size: 7rem;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  /* -webkit-animation: blink 12s infinite; */
   }
   .flicker-slow2 {
     color:#FF00E6;
-    font-family: "Daddy Longlegs NF";
+    font-family: "Sacramento", cursive;
     letter-spacing:10px;
     animation: text-flicker 12s linear infinite;
-    font-size: 17rem;
+    font-size: 10rem;
     margin: 0;
+    color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
   }
   .flicker-slow3 {
     color:#FF00E6;
-    font-family: "Daddy Longlegs NF";
+    font-family: "Sacramento", cursive;
     letter-spacing:10px;
     animation: text-flicker 4s linear infinite;
     font-size: 6rem;
     position: relative;
     margin: 0;
-    bottom: 17%;
+    bottom: 37%;
   }
 
   @keyframes text-flicker {
@@ -252,6 +265,45 @@ background-color: #840b2a;
       text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
     }
   }
+
+  .signs-div {
+    height: 60vh;
+    position: absolute;
+    min-width: 65%;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign {
+    position: relative;
+    width: 750px;
+    height: 380px;
+  }
+
+  .sign:before,
+.sign:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 280px;
+  border: 20px solid pink;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  transform: rotate(45deg);
+}
+.sign:after {
+  left: auto;
+  right: 0;
+  transform: rotate(-135deg);
+}
+  
+
+  
+
 
   #about-imgs {
     height: 60vh;
