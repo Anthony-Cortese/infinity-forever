@@ -310,7 +310,7 @@ background-color: #840b2a; */
     width: 100%;
     display: flex;
     flex-direction: row;
-    
+    padding: 10px;
   }
 
   .big-about-img {

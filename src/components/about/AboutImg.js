@@ -21,6 +21,26 @@ function AboutImg() {
             his love for people and his creative ingenuity to become the
             visionary director behind Infinity Forever.
           </p>
+          <br />
+          <p>
+            Sean, a local actor & writer teamed up with his brother Tony when he
+            saw the creative possibilities that Infinity Forever Productions
+            presented. Sean has always had a hunger to perform. Acting is outlet
+            for his restless mind, as well as the opportunity to continue to
+            study the world’s complex understanding of human behavior. Sean also
+            saw the chance to be able to share the stories he has written, or
+            the ones he wants to share with the world through Infinity Forever
+            Productions.
+          </p>
+          <br />
+          <p>
+            Together, the two brothers plan to write and share short films, as
+            well as scenes for local film festivals & eventually plan to release
+            feature length films as the production company continues to grow.
+            The Cortese brothers are honored, grateful and excited to be able to
+            share their passion for cinema as well as storytelling with the
+            world.
+          </p>
         </div>
       </section>
 

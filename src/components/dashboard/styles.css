@@ -134,7 +134,7 @@
 }
 
 .dotted-line-dash {
-    border-bottom: 4px dotted gray;
+    border-bottom: 2px dotted white;
     color: white;
     background-color: black;
     height: 4px;
