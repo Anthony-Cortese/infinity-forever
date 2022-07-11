@@ -85,10 +85,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
             </h3>
           </div>
         </div>
-
-        <div className="about-info">
-          <p></p>
+  <section id="about">
+        <div className="about-div">
+          <h3 className="logo-name">
+            <span className="flicker-slow">In</span>
+            <span className="flicker-slow1">fin</span>
+            <span className="flicker-slow">ity</span>
+            {/* </h3>
+          <h3 className="logo-name1"> */}
+            <span className="flicker-slow">F</span>
+            <span className="flicker-slow2">∞</span>
+            <span className="flicker-slow1">eve</span>
+            <span className="flicker-slow">r</span>
+          </h3>
+          <p className="flicker-slow3">productions</p>
         </div>
-        <div className="about-imgs"></div>
       </section>
-    </>

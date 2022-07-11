@@ -1,0 +1,74 @@
+$size: 90vh;
+$border: $size/45;
+
+// .sign {
+//     box-sizing: border-box;
+//     height: $size*.65;
+//     width: $size*.65;
+//     border: $border solid #B7D7F7;
+//     border-radius: 50%;
+//     // border-image: linear-gradient(45deg, purple, orange) 1;
+//     box-shadow: $size/45 dodgerblue, inset 0 0 $size/15 dodgerblue;
+//     // h1 {
+//     //   margin: 0;
+//     //   position: absolute;
+//     //   left: $size/2;
+//     //   top: 0;
+//     //   span {
+//     //     @for $i from 1 through 100 {
+//     //       &:nth-child(#{$i}) {
+//     //         transform: (rotate(($i*10)+deg));
+//     //       }
+//     //     }
+//     //     box-sizing: border-box;
+//     //     height: $size/2;
+//     //     width: $size/9.5;
+//     //     padding-top: $size/20;
+//     //     color: #FBA7C3;
+//     //     font: $size/10 'Hello Denver';
+//     //     text-align: center;
+//     //     text-shadow: 0 0 $size/20 #EF7CA3, 0 0 $size/15 #E91E63;
+//     //     text-transform: uppercase;
+//     //     position: absolute;
+//     //     left: -$border - $size/20;
+//     //     top: -$border;
+//     //     transform-origin: bottom center;
+//         &.out {
+//           animation: Flicker .2s infinite;
+//         }
+
+//         .sign::after {
+//             border-radius: inherit;
+//             background-image: linear-gradient(45deg, purple, orange);
+//         }
+//       }
+
+        
+    //   .sign1 {
+    //     box-sizing: border-box;
+    //     height: $size*.65;
+    //     width: $size*.65;
+    //     border: $border solid #FF00E6;;
+    //     border-radius: 50%;
+    //     // transform: rotate(-95deg);
+    //     box-shadow: 0 0 $size/5 dodgerblue, inset 0 0 $size/15 dodgerblue;
+       
+    //         // box-sizing: border-box;
+    //         // height: $size/2;
+    //         // width: $size/9.5;
+    //         // padding-top: $size/20;
+    //         // color: #FBA7C3;
+    //         // font: $size/10 'Hello Denver';
+    //         // text-align: center;
+    //         // text-shadow: 0 0 $size/20 #EF7CA3, 0 0 $size/15 #E91E63;
+    //         // text-transform: uppercase;
+    //         // position: absolute;
+    //         // left: -$border - $size/20;
+    //         // top: -$border;
+    //         // transform-origin: bottom center;
+    //         &.out {
+    //           animation: Flicker .2s infinite;
+    //         }
+    //       }
+        
+    

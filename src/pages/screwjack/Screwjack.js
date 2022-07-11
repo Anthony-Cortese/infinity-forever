@@ -9,7 +9,7 @@ import movie from "./pictures/movie.png";
 import paper from "./pictures/paper.png";
 import pills from "./pictures/pills.png";
 import siggy from "./pictures/siggy.png";
-import title from "./pictures/title.png";
+import screw from "./pictures/Screw.png";
 
 function Screwjack() {
   return (
@@ -20,7 +20,7 @@ function Screwjack() {
             <img
               className="large-screwjack-img"
               alt="large-underneath-bottom"
-              src={title}
+              src={screw}
             ></img>
 
             <div className="screw-info">

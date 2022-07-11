@@ -8,7 +8,7 @@ import rick from "./pictures/rick.png";
 import terry from "./pictures/terry.png";
 import tv from "./pictures/tv.png";
 import poster from "./pictures/movie poster.png";
-import hollywood from "./pictures/HOLLYWOOD.png";
+import hollywood from "./pictures/NewOnce.png";
 
 function Hollywood() {
   return (
