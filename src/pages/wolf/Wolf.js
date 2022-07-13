@@ -1,12 +1,13 @@
 import React from "react";
 import "./styles.css";
 import belfort from "./pictures/Belfort.png";
+import poster from "./pictures/VenicePoster.png";
 import naomi from "./pictures/Naomi.png";
 import sabi from "./pictures/Sabi.png";
 import sleep from "./pictures/Sleep.png";
 import together from "./pictures/Together.png";
 import water from "./pictures/Water.png";
-import black from "./pictures/black.png";
+import venice from "./pictures/Venice.png";
 
 function Wolf() {
   return (
@@ -17,7 +18,7 @@ function Wolf() {
             <img
               className="large-bottom-img"
               alt="large-underneath-bottom"
-              src={black}
+              src={venice}
             ></img>
             <div className="film-info">
               <h4 className="title">FILM</h4>
@@ -31,7 +32,7 @@ function Wolf() {
 
       <section id="bottom-info">
         <div className="movie-poster">
-          <img className="poster" alt="eye" src={belfort}></img>
+          <img className="poster" alt="eye" src={poster}></img>
         </div>
         <div className="bottom-film">
           <div className="bottom-info2">

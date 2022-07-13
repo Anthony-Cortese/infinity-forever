@@ -2,6 +2,7 @@ import React from "react";
 import tony from "./pictures/IMG_1775.png";
 import sean from "./pictures/SeanCortese7.png";
 import both from "./pictures/both.png";
+import combined from "./pictures/IMG_1908.jpeg";
 import "./styles.css";
 
 function AboutImg() {
@@ -46,9 +47,9 @@ function AboutImg() {
 
       <section id="about-imgs">
         <div className="big-about-img">
-          <img className="main-about-img" src={both} alt="tony"></img>
+          <img className="main-about-img" src={combined} alt="tony"></img>
         </div>
-        <div className="img-container">
+        {/* <div className="img-container">
           <img className="tony" src={tony} alt="tony"></img>
           <p>Anthony Cortese</p>
           <p>Founder/CEO</p>
@@ -67,7 +68,7 @@ function AboutImg() {
             update all of this, I just wanted to make sure I had something to
             finish the design.
           </p>
-        </div>
+        </div> */}
       </section>
     </>
   );

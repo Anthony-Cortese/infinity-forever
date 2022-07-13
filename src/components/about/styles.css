@@ -315,17 +315,17 @@ background-color: #840b2a; */
 
   .big-about-img {
     height: 110%;
-    width: 70%;
+    width: 100%;
     border: 2px dashed white;
   }
 
   .main-about-img {
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
     width: 100%;
   }
 
-  .img-container {
+  /* .img-container {
     height: 110%;
     width: 30%;
     display: flex;
@@ -335,7 +335,7 @@ background-color: #840b2a; */
     overflow-x: hidden;
     overflow-y: scroll;
     border: 2px dashed white;
-  }
+  } */
 
   .tony {
     height: 45%;

@@ -4,6 +4,8 @@ import eye from "./pictures/Eye.png";
 import hooded from "./pictures/Hooded man.png";
 import sean1 from "./pictures/Sean at car.png";
 import sean2 from "./pictures/Sean Profile.png";
+import bottom from "./pictures/UnderneathTheBottom.png";
+import poster from "./pictures/utbmovieposter.png";
 import "./styles.css";
 import Eye from "./Eye";
 
@@ -14,11 +16,11 @@ function Bottom() {
         <div className="bottom-main">
           <div className="large-bottom-div">
             <Eye />
-            {/* <img
+            <img
               className="large-bottom-img"
               alt="large-underneath-bottom"
-              src={jen}
-            ></img> */}
+              src={bottom}
+            ></img>
             <div className="film-info">
               <h4 className="title">FILM</h4>
               <h4 className="title">UNDERNEATH THE BOTTOM</h4>
@@ -30,7 +32,7 @@ function Bottom() {
       </section>
       <section id="bottom-info">
         <div className="movie-poster">
-          <img className="poster" alt="eye" src={jen}></img>
+          <img className="poster" alt="eye" src={poster}></img>
         </div>
         <div className="bottom-film">
           <div className="bottom-info2">
