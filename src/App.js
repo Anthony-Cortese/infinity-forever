@@ -10,6 +10,7 @@ import Bottom from "./pages/underneath/Bottom";
 import Wolf from "./pages/wolf/Wolf";
 import "./App.css";
 import Logo from "./pages/Logo";
+import Untitled from "./pages/untitled/Untitled";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           path="/OnceUponATimeInProvo"
           element={<Hollywood />}
         ></Route>
+        <Route exact path="/Untitled" element={<Untitled />}></Route>
       </Routes>
       <Copyright />
     </div>

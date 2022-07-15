@@ -10,7 +10,7 @@ function AboutImg() {
     <>
       <section id="aboutImg">
         <div className="about-info">
-          <p>
+          <p className="infinity-font">
             Infinity Forever Productions was founded by brothers Anthony and
             Sean Cortese. Anthony, a software developer as well as a film
             director, based in Utah has always had a deep passion for film. Upon
@@ -23,7 +23,7 @@ function AboutImg() {
             visionary director behind Infinity Forever.
           </p>
           <br />
-          <p>
+          <p className="infinity-font">
             Sean, a local actor & writer teamed up with his brother Tony when he
             saw the creative possibilities that Infinity Forever Productions
             presented. Sean has always had a hunger to perform. Acting is outlet
@@ -34,7 +34,7 @@ function AboutImg() {
             Productions.
           </p>
           <br />
-          <p>
+          <p className="infinity-font">
             Together, the two brothers plan to write and share short films, as
             well as scenes for local film festivals & eventually plan to release
             feature length films as the production company continues to grow.

@@ -10,6 +10,10 @@
     font-family: "Daddy Longlegs NF";
     font-size: 35%;
 }
+
+.infinity-font {
+  font-size: 1rem;
+}
 /* .logo-name2 {
     font-family: "Daddy Longlegs NF";
     font-size: 7rem;
@@ -306,7 +310,7 @@ background-color: #840b2a; */
 
 
   #about-imgs {
-    height: 60vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -347,6 +351,7 @@ background-color: #840b2a; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: auto;
   }
 
   .about-info {

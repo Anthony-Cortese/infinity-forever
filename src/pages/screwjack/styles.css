@@ -65,3 +65,12 @@
     justify-content: space-around;
     background-color: black;
 }
+
+@media only screen and (max-width: 1000px) {
+   #bottom-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   } 
+}

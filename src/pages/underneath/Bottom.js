@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import jen from "./pictures/Jen.png";
 import eye from "./pictures/Eye.png";
 import hooded from "./pictures/Hooded man.png";
@@ -8,8 +8,10 @@ import bottom from "./pictures/movieposterunder.png";
 import poster from "./pictures/utbmovieposter.png";
 import "./styles.css";
 import Eye from "./Eye";
+import ModalVideo from "react-modal-video";
 
 function Bottom() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <section id="bottom">

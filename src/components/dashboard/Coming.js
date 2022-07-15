@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 function Coming() {
@@ -8,26 +9,41 @@ function Coming() {
         <div className="title-side">
           <p className="title3">COMING SOON</p>
         </div>
-
-        <div className="coming-soon">
-          <p>UNTITLED</p>
-          <p>SLC OSCARS PROJECT</p>
-          <p>2023</p>
+        <div className="card">
+          <Link to="/Untitled">
+            <span className="coming-soon">
+              <p>UNTITLED</p>
+              <p>SLC OSCARS PROJECT</p>
+              <p>2023</p>
+            </span>
+          </Link>
         </div>
-        <div className="coming-soon">
-          <p>UNTITLED</p>
-          <p>SLC OSCARS PROJECT</p>
-          <p>2023</p>
+        <div className="card">
+          <Link to="/Untitled">
+            <span className="coming-soon">
+              <p>UNTITLED</p>
+              <p>SLC OSCARS PROJECT</p>
+              <p>2023</p>
+            </span>
+          </Link>
         </div>
-        <div className="coming-soon">
-          <p>UNTITLED</p>
-          <p>SHORT FILM PROJECT</p>
-          <p>HORROR 2023</p>
+        <div className="card">
+          <Link to="/Untitled">
+            <span className="coming-soon">
+              <p>UNTITLED</p>
+              <p>HORROR SHORT FILM</p>
+              <p>2023</p>
+            </span>
+          </Link>
         </div>
-        <div className="coming-soon">
-          <p>TV PILOT</p>
-          <p>IN DEVELOPMENT</p>
-          <p>UNKNOWN</p>
+        <div className="card">
+          <Link to="/Untitled">
+            <span className="coming-soon">
+              <p>UNTITLED</p>
+              <p>TV SHOW PILOT</p>
+              <p>IN DEVELOPMENT</p>
+            </span>
+          </Link>
         </div>
 
         {/* <div className="dotted-line-dash"></div> */}
