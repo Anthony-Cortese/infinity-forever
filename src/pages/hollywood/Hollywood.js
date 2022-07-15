@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import cliff from "./pictures/cliff.png";
 import closed from "./pictures/closed.png";
@@ -9,18 +9,30 @@ import terry from "./pictures/terry.png";
 import tv from "./pictures/tv.png";
 import poster from "./pictures/movieposter.png";
 import hollywood from "./pictures/oncemovieposter.png";
+import ModalVideo from "react-modal-video";
 
 function Hollywood() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <section id="hollywood">
         <div className="hollywood-main">
           <div className="large-hollywood-div">
-            <img
-              className="hollywood-img"
-              alt="large-underneath-bottom"
-              src={hollywood}
-            ></img>
+            <ModalVideo
+              className="modal-video"
+              channel="youtube"
+              autoplay
+              isOpen={isOpen}
+              videoId="b8ExvmTXhjE"
+              onClose={() => setOpen(false)}
+            />
+            <button className="btn-primary1" onClick={() => setOpen(true)}>
+              <img
+                className="hollywood-img"
+                alt="large-underneath-bottom"
+                src={hollywood}
+              ></img>
+            </button>
           </div>
           <div className="film-info">
             <h4 className="title">FILM</h4>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import belfort from "./pictures/Belfort.png";
 import poster from "./pictures/VenicePoster.png";
@@ -8,18 +8,30 @@ import sleep from "./pictures/Sleep.png";
 import together from "./pictures/Together.png";
 import water from "./pictures/Water.png";
 import venice from "./pictures/Venice.png";
+import ModalVideo from "react-modal-video";
 
 function Wolf() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <section id="wolf">
         <div className="wolf-main">
           <div className="large-wolf-div">
-            <img
-              className="large-bottom-img"
-              alt="large-underneath-bottom"
-              src={venice}
-            ></img>
+            <ModalVideo
+              className="modal-video"
+              channel="youtube"
+              autoplay
+              isOpen={isOpen}
+              videoId="jr6vgvhJlH0"
+              onClose={() => setOpen(false)}
+            />
+            <button className="btn-primary2" onClick={() => setOpen(true)}>
+              <img
+                className="large-bottom-img"
+                alt="large-underneath-bottom"
+                src={venice}
+              ></img>
+            </button>
             <div className="film-info">
               <h4 className="title">FILM</h4>
               <h4 className="title">VENICE</h4>
@@ -73,6 +85,10 @@ function Wolf() {
               alcoholic this may not be the place for Rick to revive his career.
               See what a day in the life of Rick Dalton outside his element
               looks like in this tale of absurd self-awareness.
+              <br />
+              ---Nothing like showing up the newest faces at the Oscar Party SLC
+              and knocking the collective socks off the audience by coming out
+              as hot and wet as freshly butchered meat...
             </p>
           </div>
         </div>

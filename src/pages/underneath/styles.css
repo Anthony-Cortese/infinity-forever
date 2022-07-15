@@ -5,6 +5,23 @@
     align-items: center;
     background-color: black;
 }
+
+.modal-video {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+
+}
+
+.btn-primary {
+    max-height: 85%;
+    max-width: 95%;
+    background-color: black;
+    border: 4px solid black;
+    cursor: pointer;
+}
+  
 .bottom-main {
     display: flex;
     flex-direction: column;
@@ -24,8 +41,8 @@
 
 .large-bottom-img {
     object-fit: contain;
-    max-height: 85%;
-    max-width: 95%;
+    max-height: 78%;
+    max-width: 78%;
     /* border: 1px solid black; */
 }
 .film-info {

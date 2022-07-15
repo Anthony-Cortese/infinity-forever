@@ -19,6 +19,14 @@
     max-height: 90%;
 }
 
+.btn-primary2 {
+    max-height: 85%;
+    max-width: 95%;
+    background-color: #FDC611;
+    cursor: pointer;
+    border: 4px solid #FDC611;
+}
+
 .wolf-pics {
     display: flex;
     flex-direction: row;

@@ -9,6 +9,7 @@ import poster from "./pictures/utbmovieposter.png";
 import "./styles.css";
 import Eye from "./Eye";
 import ModalVideo from "react-modal-video";
+import "../Movies.scss";
 
 function Bottom() {
   const [isOpen, setOpen] = useState(false);
@@ -18,11 +19,21 @@ function Bottom() {
         <div className="bottom-main">
           <div className="large-bottom-div">
             <Eye />
-            <img
-              className="large-bottom-img"
-              alt="large-underneath-bottom"
-              src={bottom}
-            ></img>
+            <ModalVideo
+              className="modal-video"
+              channel="youtube"
+              autoplay
+              isOpen={isOpen}
+              videoId="_VJgaDE7W-c"
+              onClose={() => setOpen(false)}
+            />
+            <button className="btn-primary" onClick={() => setOpen(true)}>
+              <img
+                className="large-bottom-img"
+                alt="large-underneath-bottom"
+                src={bottom}
+              ></img>
+            </button>
             <div className="film-info">
               <h4 className="title">FILM</h4>
               <h4 className="title">UNDERNEATH THE BOTTOM</h4>
