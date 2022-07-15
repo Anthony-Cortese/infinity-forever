@@ -7,8 +7,8 @@ import joint from "./pictures/joint.png";
 import rick from "./pictures/rick.png";
 import terry from "./pictures/terry.png";
 import tv from "./pictures/tv.png";
-import poster from "./pictures/movie poster.png";
-import hollywood from "./pictures/NewOnce.png";
+import poster from "./pictures/movieposter.png";
+import hollywood from "./pictures/oncemovieposter.png";
 
 function Hollywood() {
   return (
@@ -44,7 +44,11 @@ function Hollywood() {
               <strong>Directed by:</strong> Anthony Cortese
             </ul>
             <ul className="title1">
-              <strong>Written by:</strong> Anthony Cortese & Sean Cortese
+              <strong>Adapted by:</strong> Anthony Cortese & Sean Cortese
+            </ul>
+            <ul className="title1">
+              <strong>Based on:</strong> Once Upon A Time in... Hollywood by
+              Quentin Tarantino
             </ul>
             <ul className="title1">
               <strong>Edited:</strong> Anthony Cortese
@@ -59,11 +63,11 @@ function Hollywood() {
               <strong>Produced by:</strong> Infinity Forever Productions
             </ul>
             <ul className="title1">
-              <strong>Year:</strong> 2022
+              <strong>Year:</strong> 2021
             </ul>
           </div>
           <div className="bottom-description">
-            <h3>
+            <p className="film-description">
               Our first stab at an original take on the splendid Quentin
               Tarrantino film “Once Upon A Time In Hollywood” finds Rick Dalton
               in Provo, Utah having a documentary crew following his every move
@@ -73,7 +77,7 @@ function Hollywood() {
               alcoholic this may not be the place for Rick to revive his career.
               See what a day in the life of Rick Dalton outside his element
               looks like in this tale of absurd self-awareness.
-            </h3>
+            </p>
           </div>
         </div>
       </section>

@@ -36,15 +36,45 @@ function Wolf() {
         </div>
         <div className="bottom-film">
           <div className="bottom-info2">
-            <p className="title1">Directed by:</p>
-            <p className="title1">Anthony Cortese</p>
-            <p className="title1">Written by:</p>
-            <p className="title1">Anthony Cortese</p>
-            <p className="title1">Starring:</p>
-            <p className="title1">Jennifer Muldoon</p>
-            <p className="title1">Sean Cortese</p>
+            <ul className="title1">
+              <strong>Directed by:</strong> Anthony Cortese
+            </ul>
+            <ul className="title1">
+              <strong>Adapted by:</strong> Anthony Cortese & Sean Cortese
+            </ul>
+            <ul className="title1">
+              <strong>Based on:</strong> Once Upon A Time in... Hollywood by
+              Quentin Tarantino
+            </ul>
+            <ul className="title1">
+              <strong>Edited:</strong> Anthony Cortese
+            </ul>
+            <ul className="title1">
+              <strong>Starring:</strong> Sean Cortese, Anthony Cortese
+            </ul>
+            <ul className="title1">
+              <strong>With:</strong> Terry Cortese
+            </ul>
+            <ul className="title1">
+              <strong>Produced by:</strong> Infinity Forever Productions
+            </ul>
+            <ul className="title1">
+              <strong>Year:</strong> 2021
+            </ul>
           </div>
-          <div className="bottom-description"></div>
+          <div className="bottom-description">
+            <p>
+              Our first stab at an original take on the splendid Quentin
+              Tarrantino film “Once Upon A Time In Hollywood” finds Rick Dalton
+              in Provo, Utah having a documentary crew following his every move
+              trying to survive in the restrictive environment that is Happy
+              Valley. Rick, a has been actor on the brink of losing his
+              Hollywood career spends a weekend in Provo. As a chain smoker and
+              alcoholic this may not be the place for Rick to revive his career.
+              See what a day in the life of Rick Dalton outside his element
+              looks like in this tale of absurd self-awareness.
+            </p>
+          </div>
         </div>
       </section>
       <section id="wolf-photos">

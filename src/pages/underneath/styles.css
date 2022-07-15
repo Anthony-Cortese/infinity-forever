@@ -10,23 +10,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 92vh;
+    height: auto;
     width: 100%;
     border: 7px solid black;
     background-color: black;
 }
 .large-bottom-div {
     height: auto;
-    width: 85%;
+    width: 100%;
     border: 1px solid black;
     /* background-image: url(../underneath/pictures/UnderneathTheBottom.png); */
 }
 
 .large-bottom-img {
     object-fit: contain;
-    height: 85%;
-    width: 95%;
-    border: 1px solid black;
+    max-height: 85%;
+    max-width: 95%;
+    /* border: 1px solid black; */
 }
 .film-info {
     display: flex;
@@ -84,14 +84,17 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 50vh;
+    height: auto;
+    border: 1px solid black
 }
 
 .bottom-info2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: left;
     width: 60vw;
+    padding: 40px;
 }
 
 .movie-poster {
@@ -100,14 +103,17 @@
     align-items: center;
     width: 30%;
     height: 90%;
-    margin-right: 8%;
+    /* margin-right: 8%; */
 }
 
 .botton-film {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
     
 }
+
 
 .poster {
     height: 80%;
@@ -117,12 +123,18 @@
 
 .title1 {
     color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.film-description {
+    font-size: 1.5rem;
 }
 
 .dotted-line {
-  border-bottom: 4px dotted gray;
-  color: white;
+  border-bottom: 2px dotted rgb(252, 252, 252);
   background-color: black;
-  height: 4px;
+  /* height: 4px; */
   width: 100%;
 }

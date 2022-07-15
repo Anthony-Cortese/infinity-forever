@@ -10,6 +10,7 @@ import paper from "./pictures/paper.png";
 import pills from "./pictures/pills.png";
 import siggy from "./pictures/siggy.png";
 import screw from "./pictures/Screw.png";
+import screw1 from "./pictures/screwjackmovieposter.png";
 
 function Screwjack() {
   return (
@@ -33,53 +34,55 @@ function Screwjack() {
         </div>
       </section>
 
-      <section id="screwjack-info">
+      <section id="bottom-info">
         <div className="movie-poster">
-          <img className="poster" alt="eye" src={movie}></img>
+          <img className="poster" alt="eye" src={screw1}></img>
         </div>
-        <div className="screwjack-film">
-          <div className="screw-actors">
-            <ul className="title1">
+        <div className="bottom-film">
+          <div className="bottom-info2">
+            <li className="title1">
               <strong>Directed by:</strong> Anthony Cortese
-            </ul>
+            </li>
             {/* <li className="title1">Anthony Cortese</li> */}
-            <ul className="title1">
+            <li className="title1">
               <strong>Adapted by:</strong> Sean Cortese
-            </ul>
-            <ul className="title1">
-              <strong>Adapted by:</strong> Sean Cortese
-            </ul>
+            </li>
+            <li className="title1">
+              <strong>Based on:</strong> Screw Jack written by Hunter S.
+              Thompson
+            </li>
+
             {/* <li className="title1">Sean Cortese</li> */}
-            <ul className="title1">
+            <li className="title1">
               <strong>Starring: </strong>Sean Cortese, Anthony Cortese
-            </ul>
-            <ul className="title1">
+            </li>
+            <li className="title1">
               <strong>Edited by:</strong> Anthony Cortese
-            </ul>
-            <ul className="title1">
+            </li>
+            <li className="title1">
               <strong>Produced by:</strong> Infinity Forever Productions
-            </ul>
-            <ul className="title1">
+            </li>
+            <li className="title1">
               <strong>Year:</strong> 2022
-            </ul>
-            {/* <li className="title1">Sean Cortese</li> */}
+            </li>
           </div>
-        </div>
-        <div className="bottom-description">
-          <p>
-            Adapted from Hunter S. Thompson’s short novel, “Screwjack” is the
-            story of a rapturous night in 1969 where Hunter was on deadline to
-            finish a story, without of his normal cocktail of alchohol &amp;
-            psychedelics Thompson is forced to come up with a story on his own
-            volition at least that is how he remembers it. Take a look back at
-            what would be the beginning of the Gonzo journalist’s bizarre yet
-            revolutionizing way of putting himself right in the tornado of the
-            articles he would write for Rolling Stone magazine as well as his
-            novels. An ode to Dr. Thompson this was a passion project that came
-            out of love for Thompson’s writing whose work seems more relevant
-            today than ever before. Sit back and watch the savage birth of the
-            most prolific and fearless writer of the 20 th century.
-          </p>
+          <div className="bottom-description">
+            <p className="film-description">
+              Adapted from Hunter S. Thompson’s short novel, “Screwjack” is the
+              story of a rapturous night in 1969 where Hunter was on deadline to
+              finish a story, without of his normal cocktail of alchohol &
+              psychedelics Thompson is forced to come up with a story on his own
+              volition at least that is how he remembers it. Take a look back at
+              what would be the beginning of the Gonzo journalist’s bizarre yet
+              revolutionizing way of putting himself right in the tornado of the
+              articles he would write for Rolling Stone magazine as well as his
+              novels. An ode to Dr. Thompson this was a passion project that
+              came out of love for Thompson’s writing whose work seems more
+              relevant today than ever before. Sit back and watch the savage
+              birth of the most prolific and fearless writer of the 20th
+              century.
+            </p>
+          </div>
         </div>
       </section>
       <section id="wolf-photos">

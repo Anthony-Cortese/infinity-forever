@@ -1,29 +1,23 @@
 #screwjack {
     width: 100%;
     max-height: 100%;
-    background-color: black;
-    background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ;
+    background-color: #9AB8D7;
+    /* background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ; */
 }
 
 .screwjack-main {
-    height: 100vh;
+    height: auto;
 }
 
 
 .large-screwjack-img {
-    height: 80%;
-    width: 100%;
+    object-fit: contain;
+    max-height: 70%;
+    max-width: 80%;
 }
 
 
-#screwjack-info {
-    min-height: 80vh;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
 
-}
 
 .movie-poster {
     display: flex;
@@ -37,16 +31,33 @@
     width: 22rem;
 }
 
-.screw-actors {
+#screwjack-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: auto;
+    border: 1px solid black
+}
+
+.screw-info2 {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: baseline;
-    border: 1px solid orange;
-    height: 100%;
-    min-width: 35%;
+    text-align: left;
+    width: 60vw;
+    padding: 40px;
 }
+
+.screw-film {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    
+}
+
 
 .screw-info {
     display: flex;

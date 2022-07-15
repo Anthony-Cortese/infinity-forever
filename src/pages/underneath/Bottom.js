@@ -4,7 +4,7 @@ import eye from "./pictures/Eye.png";
 import hooded from "./pictures/Hooded man.png";
 import sean1 from "./pictures/Sean at car.png";
 import sean2 from "./pictures/Sean Profile.png";
-import bottom from "./pictures/UnderneathTheBottom.png";
+import bottom from "./pictures/movieposterunder.png";
 import poster from "./pictures/utbmovieposter.png";
 import "./styles.css";
 import Eye from "./Eye";
@@ -26,9 +26,9 @@ function Bottom() {
               <h4 className="title">UNDERNEATH THE BOTTOM</h4>
               <h4 className="title">2010</h4>
             </div>
+            <div className="dotted-line"></div>
           </div>
         </div>
-        <div className="dotted-line"></div>
       </section>
       <section id="bottom-info">
         <div className="movie-poster">
@@ -36,15 +36,41 @@ function Bottom() {
         </div>
         <div className="bottom-film">
           <div className="bottom-info2">
-            <p className="title1">Directed by:</p>
-            <p className="title1">Anthony Cortese</p>
-            <p className="title1">Written by:</p>
-            <p className="title1">Anthony Cortese</p>
-            <p className="title1">Starring:</p>
-            <p className="title1">Jennifer Muldoon</p>
-            <p className="title1">Sean Cortese</p>
+            <li className="title1">
+              <strong>Directed by:</strong> Anthony Cortese
+            </li>
+            {/* <li className="title1">Anthony Cortese</li> */}
+            <li className="title1">
+              <strong>Written by:</strong> Anthony Cortese
+            </li>
+
+            {/* <li className="title1">Sean Cortese</li> */}
+            <li className="title1">
+              <strong>Starring: </strong>Jennifer Muldoon, Sean Cortese, Terry
+              Cortese, Jan Cortese
+            </li>
+            <li className="title1">
+              <strong>Edited by:</strong> Anthony Cortese
+            </li>
+            <li className="title1">
+              <strong>Produced by:</strong> Infinity Forever Productions
+            </li>
+            <li className="title1">
+              <strong>Year:</strong> 2010
+            </li>
           </div>
-          <div className="bottom-description"></div>
+          <div className="bottom-description">
+            <p className="film-description">
+              A short film inspired about the horrors that lay in wait for us in
+              every day surroundings. How simply being in the wrong place at the
+              wrong time can turn every day monotony into your worst nightmare.
+              A newlywed couple is forced to spend a night at a dreary motel
+              after their car breaks down while on honeymoon. What waits for the
+              couple inside is an unforeseen spiral of decrepit terror that
+              waits at the gates of hell. Uncover the fear that lies just
+              Underneath The Bottom.
+            </p>
+          </div>
         </div>
       </section>
       <section id="bottom-photos">

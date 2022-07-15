@@ -79,7 +79,7 @@ background-color: #840b2a; */
     font-family: "Sacramento", cursive;
     letter-spacing:10px;
     animation: text-flicker 6s linear infinite;
-    font-size: 10rem;
+    font-size: 4rem;
     text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     /* height: 100vh; */
     color: #fff6a9;
@@ -92,7 +92,7 @@ background-color: #840b2a; */
     font-family: "Sacramento", cursive;
     letter-spacing:10px;
     animation: text-flicker 10s linear ease-in-out;
-    font-size: 7rem;
+    font-size: 4rem;
     text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   font-family: "Sacramento", cursive;
@@ -104,7 +104,7 @@ background-color: #840b2a; */
     font-family: "Sacramento", cursive;
     letter-spacing:10px;
     animation: text-flicker 12s linear infinite;
-    font-size: 10rem;
+    font-size: 4rem;
     margin: 0;
     color: #fff6a9;
   font-family: "Sacramento", cursive;
@@ -115,7 +115,7 @@ background-color: #840b2a; */
     font-family: "Sacramento", cursive;
     letter-spacing:10px;
     animation: text-flicker 4s linear infinite;
-    font-size: 6rem;
+    font-size: 4rem;
     position: relative;
     margin: 0;
     bottom: 37%;

@@ -17,14 +17,15 @@
 }
 
 .hollywood-img {
+    object-fit: contain;
     max-height: 90%;
-    width: 90%;
+    max-width: 95%;
+    /* border: 1px solid black; */
 }
 
 #bottom-info {
     min-height: 85vh;
     width: 100%;
-    border: 2px solid red;
     display: flex;
     justify-content: space-around ;
 }
@@ -58,7 +59,9 @@ h3 {
     text-align: left;
     border-top: 2px dotted whitesmoke;
 }
-
+.film-description {
+    font-size: 2rem;
+}
 .movie-poster-div {
     max-width: 30%;
     display: flex;

@@ -13,10 +13,10 @@ function Dashboard() {
     <>
       <section id="dashboard-div">
         <div className="img-container1">
-          <div className="signs-dash">
+          {/* <div className="signs-dash">
             <div className="sign-dash"> </div>
             <div className="sign-dash1"> </div>
-          </div>
+          </div> */}
           <div className="featured-div">
             <img
               className="large-screwjack-img"

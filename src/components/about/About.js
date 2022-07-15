@@ -8,10 +8,10 @@ function About() {
   return (
     <>
       <section id="about">
-        <div className="signs-div">
+        {/* <div className="signs-div">
           <div className="sign"> </div>
           <div className="sign1"> </div>
-        </div>
+        </div> */}
 
         <div className="about-div">
           <h3 className="logo-name">
