@@ -12,7 +12,7 @@
 }
 
 .infinity-font {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 /* .logo-name2 {
     font-family: "Daddy Longlegs NF";
@@ -367,6 +367,10 @@ background-color: #840b2a; */
   .about-info {
     width: 60%;
     height: 30%;
+  }
+
+  .infinity-font {
+    font-size: 1rem;
   }
 
   @media only screen and (max-width: 800px)  {

@@ -75,7 +75,7 @@ function Wolf() {
             </ul>
           </div>
           <div className="bottom-description">
-            <p>
+            <p className="film-description">
               Our first stab at an original take on the splendid Quentin
               Tarrantino film “Once Upon A Time In Hollywood” finds Rick Dalton
               in Provo, Utah having a documentary crew following his every move
@@ -85,11 +85,21 @@ function Wolf() {
               alcoholic this may not be the place for Rick to revive his career.
               See what a day in the life of Rick Dalton outside his element
               looks like in this tale of absurd self-awareness.
-              <br />
-              ---Nothing like showing up the newest faces at the Oscar Party SLC
-              and knocking the collective socks off the audience by coming out
-              as hot and wet as freshly butchered meat...
             </p>
+            <br />
+            <div className="bottom-description1">
+              <p className="film-description1">
+                --Nothing like showing up the newest faces at the SLC Oscars and
+                knocking the collective socks off the audience by coming out as
+                hot and wet as freshly butchered meat. Venice stood out as the
+                only submission at the SLC Oscars capable of matching the
+                unruliness and bacchanalia of the party itself. Sean’s visceral
+                and rapacious performance provoked the SLC Oscars crowd to
+                reconsider the boundaries of agreeability. We look forward to
+                what Infinity Forever Productions has in store for us next
+                year.--
+              </p>
+            </div>
           </div>
         </div>
       </section>

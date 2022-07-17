@@ -40,3 +40,12 @@
     overflow-y: hidden;
     overflow-x: scroll;
 }
+
+.film-description {
+    font-size: 1rem;
+}
+
+.film-description1 {
+    font-size: .8rem;
+    font-style: italic;
+}

@@ -6,46 +6,44 @@ function Coming() {
   return (
     <>
       <section id="coming">
-        <div className="title-side">
+        {/* <div className="title-side">
           <p className="title3">COMING SOON</p>
-        </div>
-        <div className="card">
-          <Link to="/Untitled">
-            <span className="coming-soon">
-              <p>UNTITLED</p>
-              <p>SLC OSCARS PROJECT</p>
-              <p>2023</p>
-            </span>
-          </Link>
-        </div>
-        <div className="card">
-          <Link to="/Untitled">
-            <span className="coming-soon">
-              <p>UNTITLED</p>
-              <p>SLC OSCARS PROJECT</p>
-              <p>2023</p>
-            </span>
-          </Link>
-        </div>
-        <div className="card">
-          <Link to="/Untitled">
-            <span className="coming-soon">
-              <p>UNTITLED</p>
-              <p>HORROR SHORT FILM</p>
-              <p>2023</p>
-            </span>
-          </Link>
-        </div>
-        <div className="card">
-          <Link to="/Untitled">
-            <span className="coming-soon">
-              <p>UNTITLED</p>
-              <p>TV SHOW PILOT</p>
-              <p>IN DEVELOPMENT</p>
-            </span>
-          </Link>
-        </div>
+        </div> */}
+        <div className="untitled">
+          <div className="card">
+            <Link to="/Untitled">
+              <span className="coming-soon">
+                <p>SLC OSCARS PROJECT</p>
+                <p>2023</p>
+              </span>
+            </Link>
+          </div>
+          <div className="card">
+            <Link to="/Untitled">
+              <span className="coming-soon">
+                <p>SLC OSCARS PROJECT</p>
+                <p>2023</p>
+              </span>
+            </Link>
+          </div>
 
+          <div className="card">
+            <Link to="/Untitled">
+              <span className="coming-soon">
+                <p>HORROR SHORT FILM</p>
+                <p>2023</p>
+              </span>
+            </Link>
+          </div>
+          <div className="card">
+            <Link to="/TV">
+              <span className="coming-soon">
+                <p>TV SHOW PILOT</p>
+                <p>2024</p>
+              </span>
+            </Link>
+          </div>
+        </div>
         {/* <div className="dotted-line-dash"></div> */}
       </section>
     </>

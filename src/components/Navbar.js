@@ -18,7 +18,9 @@ function Navbar() {
             <Link to="/Productions">
               <ul>PRODUCTIONS</ul>
             </Link>
-            <ul>SLC OSCARS</ul>
+            <Link to="/SLCOscars">
+              <ul>SLC OSCARS</ul>
+            </Link>
           </li>
         </div>
 

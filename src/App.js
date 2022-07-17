@@ -1,7 +1,6 @@
-import { Route, Switch, Link, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import Dashboard from "./components/dashboard/Dashboard";
-import Infinity from "./components/Infinity";
 import Navbar from "./components/Navbar";
 import Copyright from "./pages/Copyright";
 import Hollywood from "./pages/hollywood/Hollywood";
@@ -10,6 +9,8 @@ import Bottom from "./pages/underneath/Bottom";
 import Wolf from "./pages/wolf/Wolf";
 import "./App.css";
 import Untitled from "./pages/untitled/Untitled";
+import Oscars from "./pages/oscars/Oscars";
+import TV from "./pages/untitled/TV";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           element={<Hollywood />}
         ></Route>
         <Route path="/Untitled" exact element={<Untitled />}></Route>
+        <Route path="/TV" exact element={<TV />}></Route>
+        <Route path="/SLCOscars" exact element={<Oscars />}></Route>
       </Routes>
       <Copyright />
     </div>

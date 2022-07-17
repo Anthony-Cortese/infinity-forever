@@ -88,6 +88,17 @@ function Hollywood() {
               See what a day in the life of Rick Dalton outside his element
               looks like in this tale of absurd self-awareness.
             </p>
+            <br />
+            <p className="film-description1">
+              --Critics described their first film ‘as hot and wet as freshly
+              butchered meat’ but their sophomore effort took a less
+              ostentatious approach. Once Upon a Time in Provo, a twist on
+              Tarantino’s latest flick, was a farcical exhibit of the absurdity
+              that is Utah County. And rumor has it there’s a 9 minute long
+              directors cut. Although they are yet to take home any hardware,
+              they’ve won over the hearts of the #slcoscars crowd and
+              established themselves as essentials.--
+            </p>
           </div>
         </div>
       </section>

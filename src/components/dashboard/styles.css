@@ -8,7 +8,7 @@
     width: 100%;
     object-fit: contain;
 }
-#coming {
+ #coming {
     width: 100%;
     height: 30vh;
     display: flex;
@@ -17,14 +17,25 @@
     align-items: center;
     overflow-y: hidden;
     overflow-x: scroll;
+
+}
+
+.untitled {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 .coming-div {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     overflow-y: hidden;
     overflow-x: scroll;
-    min-width: 100vw;
+    width: 100vw;
     height: 30vh;
     border-bottom: 4px dotted gray;
 }
