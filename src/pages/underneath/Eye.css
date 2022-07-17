@@ -10,7 +10,7 @@
   display: block;
   position: absolute;
   transform: scaleX(0.2) scaleY(0.2);
-  right: 50%;
+  right: 30%;
 }
   
   #eye-test, #test {

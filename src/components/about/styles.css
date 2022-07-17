@@ -29,10 +29,20 @@
     flex-direction: column;
     align-items: center;
     height: 45vh;
-    width: 40vw;
+    width: 50vw;
     border-radius: 100%;
     /* border: 1px solid red; */
     margin-bottom: 4rem;
+}
+
+.large-img {
+  min-height: 70%;
+  min-width: 70%;
+}
+
+.large {
+  min-height: 90%;
+  min-width: 90%;
 }
 
 #about {
@@ -40,7 +50,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 60vh;
     background-color: black;
     background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ;
     /* background:

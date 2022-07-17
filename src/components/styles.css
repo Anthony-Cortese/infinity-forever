@@ -22,18 +22,33 @@
 .navigation {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     color: white;
     text-decoration: none;
+    /* max-width: 30%; */
+}
+
+.navigation-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    /* max-width: 50%; */
 }
 
 ul {
     text-decoration: none;
     margin: 0;
+    color: white;
 }
 
     ul:visited {
         text-decoration: none;
+        text-decoration: underline;
+        color: white;
 }
+
 
 ul:hover { text-decoration: none;}
 ul:focus { text-decoration: none; }
@@ -44,12 +59,10 @@ ul:hover, ul:active { text-decoration: none;}
 .logos-navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: red;
-    width: 10px;
-    height: .1px
-    /* position: relative;
-    right: 2rem; */
+    justify-content: flex-end;
+    width: 30%;
+    height: auto;
+    padding: 8px;
 }
 
 .infinity-print {
@@ -64,5 +77,6 @@ ul:hover, ul:active { text-decoration: none;}
     width: 1.5rem;
     position: relative;
     right: 1rem;
+    padding: 20px;
 
 }

@@ -44,10 +44,8 @@ function Hollywood() {
       </section>
 
       <section id="bottom-info">
-        <div className="movie-poster-div">
-          <div className="movie-poster">
-            <img className="poster" alt="eye" src={poster}></img>
-          </div>
+        <div className="movie-poster">
+          <img className="poster" alt="eye" src={poster}></img>
         </div>
 
         <div className="bottom-film">

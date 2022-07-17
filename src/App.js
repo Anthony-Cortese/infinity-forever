@@ -18,17 +18,17 @@ function App() {
       <Routes>
         <Route exact path="/" element={<About />}></Route>
 
-        <Route exact path="/Productions" element={<Dashboard />}></Route>
+        <Route path="/Productions" exact element={<Dashboard />}></Route>
 
-        <Route exact path="/Screwjack" element={<Screwjack />}></Route>
-        <Route exact path="/UnderneathTheBottom" element={<Bottom />}></Route>
-        <Route exact path="/Venice" element={<Wolf />}></Route>
+        <Route path="/Screwjack" exact element={<Screwjack />}></Route>
+        <Route path="/UnderneathTheBottom" exact element={<Bottom />}></Route>
+        <Route path="/Venice" exact element={<Wolf />}></Route>
         <Route
-          exact
           path="/OnceUponATimeInProvo"
+          exact
           element={<Hollywood />}
         ></Route>
-        <Route exact path="/Untitled" element={<Untitled />}></Route>
+        <Route path="/Untitled" exact element={<Untitled />}></Route>
       </Routes>
       <Copyright />
     </div>

@@ -43,7 +43,6 @@ function Screwjack() {
             <li className="title1">
               <strong>Directed by:</strong> Anthony Cortese
             </li>
-            {/* <li className="title1">Anthony Cortese</li> */}
             <li className="title1">
               <strong>Adapted by:</strong> Sean Cortese
             </li>
@@ -52,7 +51,6 @@ function Screwjack() {
               Thompson
             </li>
 
-            {/* <li className="title1">Sean Cortese</li> */}
             <li className="title1">
               <strong>Starring: </strong>Sean Cortese, Anthony Cortese
             </li>
