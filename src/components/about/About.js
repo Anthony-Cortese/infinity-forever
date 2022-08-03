@@ -1,7 +1,7 @@
 import React from "react";
 import AboutImg from "./AboutImg";
-import infinity from "./pictures/Artboard 1.png";
-import sean from "./pictures/SeanCortese7.png";
+import infinity from "./pictures/infin.png";
+import logo from "./pictures/fullboar.png";
 import "./styles.css";
 
 function About() {
@@ -12,7 +12,7 @@ function About() {
           <img
             className="large-img"
             alt="large-underneath-bottom"
-            src={infinity}
+            src={logo}
           ></img>
         </div>
         {/* <div className="signs-div">

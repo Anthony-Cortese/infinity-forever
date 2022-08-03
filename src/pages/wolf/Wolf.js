@@ -76,15 +76,18 @@ function Wolf() {
           </div>
           <div className="bottom-description">
             <p className="film-description">
-              Our first stab at an original take on the splendid Quentin
-              Tarrantino film “Once Upon A Time In Hollywood” finds Rick Dalton
-              in Provo, Utah having a documentary crew following his every move
-              trying to survive in the restrictive environment that is Happy
-              Valley. Rick, a has been actor on the brink of losing his
-              Hollywood career spends a weekend in Provo. As a chain smoker and
-              alcoholic this may not be the place for Rick to revive his career.
-              See what a day in the life of Rick Dalton outside his element
-              looks like in this tale of absurd self-awareness.
+              The first short scene that Infinity Forever Productions ever
+              submitted at the Salt Lake City Oscars film festival. Picked from
+              the shockingly raunchy & depraved real-life story of Jordan
+              Belfort during his time as a shady stock broker on early 90s Wall
+              Street. This scene encapsulates the self-gratifying behavior that
+              came with wild monetary success fueled by drugs & greed. Wanting
+              to make a splash with our first submission, this scene held all
+              the elements that would bring the audience to their upright
+              positions in their seats. A review from the SLC Oscars called it,
+              “hot and wet as freshly butchered meat. Sean’s visceral and
+              rapacious performance provoked the SLC Oscars crowd to reconsider
+              the boundaries of agreeability.”
             </p>
             <br />
             <div className="bottom-description1">

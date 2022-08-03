@@ -41,8 +41,9 @@
 }
 
 .large {
-  min-height: 90%;
-  min-width: 90%;
+  height: 70%;
+  width: 70%;
+  align-items: center;
 }
 
 #about {

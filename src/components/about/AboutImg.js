@@ -1,7 +1,7 @@
 import React from "react";
-import tony from "./pictures/IMG_1775.png";
-import sean from "./pictures/SeanCortese7.png";
-import both from "./pictures/both.png";
+// import tony from "./pictures/IMG_1775.png";
+// import sean from "./pictures/SeanCortese7.png";
+// import both from "./pictures/both.png";
 import combined from "./pictures/IMG_1908.jpeg";
 import "./styles.css";
 

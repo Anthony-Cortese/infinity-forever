@@ -29,7 +29,10 @@ function Navbar() {
         </div>
 
         <div className="logos-navbar">
-          <BsYoutube className="logos-icon" />
+          <a href="https://www.youtube.com/channel/UCWaEaluGSg-on1BsWwrsOag">
+            <BsYoutube className="logos-icon" />
+          </a>
+
           <a href="https://www.instagram.com/infinityforeverproductions/">
             <AiFillInstagram className="logos-icon" />
           </a>
