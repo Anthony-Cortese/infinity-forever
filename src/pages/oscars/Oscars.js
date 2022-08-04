@@ -3,12 +3,13 @@ import "./styles.css";
 import oscar from "./pictures/oscars.png";
 import oscar1 from "./pictures/1.png";
 import oscar2 from "./pictures/director.png";
+import oscar6 from "./pictures/2.png";
 import oscar3 from "./pictures/3.png";
 import oscar4 from "./pictures/4.png";
 import oscar5 from "./pictures/5.png";
 import { BsYoutube } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 
 function Oscars() {
   return (
@@ -174,6 +175,7 @@ function Oscars() {
       <section id="oscar-photos">
         <div className="oscar-pics">
           <img className="oscar-img" alt="oscar" src={oscar1}></img>
+          <img className="oscar-img" alt="oscar" src={oscar6}></img>
           <img className="oscar-img" alt="oscar" src={oscar2}></img>
           <img className="oscar-img" alt="oscar" src={oscar3}></img>
           <img className="oscar-img" alt="oscar" src={oscar4}></img>
