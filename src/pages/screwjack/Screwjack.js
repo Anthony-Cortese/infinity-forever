@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import big from "./pictures/big.png";
 import both from "./pictures/both.png";
@@ -11,18 +11,30 @@ import pills from "./pictures/pills.png";
 import siggy from "./pictures/siggy.png";
 import screw from "./pictures/Screw.png";
 import screw1 from "./pictures/screwjackmovieposter.png";
+import ModalVideo from "react-modal-video";
 
 function Screwjack() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <section id="screwjack">
         <div className="screwjack-main">
           <div className="large-screwjack-div">
-            <img
-              className="large-screwjack-img"
-              alt="large-underneath-bottom"
-              src={screw}
-            ></img>
+            <ModalVideo
+              className="modal-video"
+              channel="youtube"
+              autoplay
+              isOpen={isOpen}
+              videoId="jxQELfT3sbU"
+              onClose={() => setOpen(false)}
+            />
+            <button className="btn-primary4" onClick={() => setOpen(true)}>
+              <img
+                className="large-screwjack"
+                alt="large-underneath-bottom"
+                src={screw}
+              ></img>
+            </button>
 
             <div className="screw-info">
               <h4 className="title">FILM</h4>

@@ -7,14 +7,20 @@
 
 .screwjack-main {
     height: auto;
+    background-color: #9AB8D7;
 }
 
 
-.large-screwjack-img {
+.large-screwjack {
     object-fit: contain;
     max-height: 70%;
     max-width: 80%;
+    
     /* border: 35px solid #9AB8D7; */
+}
+
+.btn-primary4 {
+    background-color: #9AB8D7;
 }
 
 #bottom-info {
