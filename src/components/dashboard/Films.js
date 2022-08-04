@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
-import joint from "../../pages/hollywood/pictures/joint.png";
+// import joint from "../../pages/hollywood/pictures/joint.png";
 import together from "../../pages/wolf/pictures/Together.png";
 import sean from "../../pages/underneath/pictures/Sean at car.png";
 import siggy from "../../pages/screwjack/pictures/siggy.png";

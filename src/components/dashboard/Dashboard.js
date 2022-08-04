@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
 import title from "../../pages/screwjack/pictures/title.png";
-import joint from "../../pages/hollywood/pictures/joint.png";
-import together from "../../pages/wolf/pictures/Together.png";
-import sean from "../../pages/underneath/pictures/Sean at car.png";
-import siggy from "../../pages/screwjack/pictures/siggy.png";
+// import joint from "../../pages/hollywood/pictures/joint.png";
+// import together from "../../pages/wolf/pictures/Together.png";
+// import sean from "../../pages/underneath/pictures/Sean at car.png";
+// import siggy from "../../pages/screwjack/pictures/siggy.png";
 import Films from "./Films";
-import Coming from "./Coming";
+// import Coming from "./Coming";
 
 function Dashboard() {
   return (

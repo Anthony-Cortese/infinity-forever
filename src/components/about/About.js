@@ -1,6 +1,6 @@
 import React from "react";
 import AboutImg from "./AboutImg";
-import infinity from "./pictures/infin.png";
+// import infinity from "./pictures/infin.png";
 import logo from "./pictures/fullboar.png";
 import "./styles.css";
 

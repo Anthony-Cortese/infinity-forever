@@ -5,7 +5,7 @@ import both from "./pictures/both.png";
 import gonzo from "./pictures/dr gonzo.png";
 import final from "./pictures/final.png";
 import me from "./pictures/me.png";
-import movie from "./pictures/movie.png";
+// import movie from "./pictures/movie.png";
 import paper from "./pictures/paper.png";
 import pills from "./pictures/pills.png";
 import siggy from "./pictures/siggy.png";
