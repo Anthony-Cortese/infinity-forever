@@ -11,7 +11,7 @@ function Coming() {
         </div> */}
         <div className="untitled">
           <div className="card">
-            <Link to="/Untitled">
+            <Link to="/Untitled" style={{ textDecoration: "none" }}>
               <span className="coming-soon">
                 <p>SLC OSCARS PROJECT</p>
                 <p>2023</p>
@@ -19,7 +19,7 @@ function Coming() {
             </Link>
           </div>
           <div className="card">
-            <Link to="/Untitled">
+            <Link to="/Untitled" style={{ textDecoration: "none" }}>
               <span className="coming-soon">
                 <p>SLC OSCARS PROJECT</p>
                 <p>2023</p>
@@ -28,7 +28,7 @@ function Coming() {
           </div>
 
           <div className="card">
-            <Link to="/Untitled">
+            <Link to="/Untitled" style={{ textDecoration: "none" }}>
               <span className="coming-soon">
                 <p>HORROR SHORT FILM</p>
                 <p>2023</p>
@@ -36,7 +36,7 @@ function Coming() {
             </Link>
           </div>
           <div className="card">
-            <Link to="/TV">
+            <Link to="/TV" style={{ textDecoration: "none" }}>
               <span className="coming-soon">
                 <p>TV SHOW PILOT</p>
                 <p>2024</p>

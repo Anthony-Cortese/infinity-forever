@@ -11,14 +11,16 @@ import "./App.css";
 import Untitled from "./pages/untitled/Untitled";
 import Oscars from "./pages/oscars/Oscars";
 import TV from "./pages/untitled/TV";
+import Menu from "./components/Menu";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+
       <Routes>
         <Route exact path="/" element={<About />}></Route>
-
+        <Route exact path="/Menu" element={<Menu />}></Route>
         <Route path="/Productions" exact element={<Dashboard />}></Route>
 
         <Route path="/Screwjack" exact element={<Screwjack />}></Route>

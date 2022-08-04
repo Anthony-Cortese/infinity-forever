@@ -35,6 +35,11 @@
     margin-bottom: 4rem;
 }
 
+.about-info {
+  min-width: 80%;
+  border: 2px solid snow;
+}
+
 .large-img {
     object-fit: contain;
     max-height: 100%;
@@ -54,7 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
+    max-height: 80vh;
     background-color: black;
     background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ;
     /* background:
@@ -317,6 +322,14 @@ background-color: #840b2a; */
   left: auto;
   right: 0;
   transform: rotate(-135deg);
+}
+
+.together {
+  -webkit-transition: -webkit-filter 1s;
+}
+
+.together:hover {
+  -webkit-filter: grayscale(100%); 
 }
   
 

@@ -49,3 +49,11 @@
     font-size: .8rem;
     font-style: italic;
 }
+
+.large-wolf-div {
+    -webkit-transition: -webkit-filter .5s;
+  }
+  
+  .large-wolf-div:hover {
+    -webkit-filter: grayscale(100%); 
+  }

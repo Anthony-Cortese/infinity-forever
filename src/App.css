@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Quicksand:wght@500&display=swap');
 .App {
   text-align: center;
   border-left: 2rem solid black;
   border-right: 2rem solid black;
   background-color: black;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #body {
   border-left: 3rem solid black;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .App-logo {

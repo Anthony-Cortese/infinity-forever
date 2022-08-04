@@ -107,6 +107,14 @@ h3 {
     object-fit: contain;
 }
 
+.large-hollywood-div {
+    -webkit-transition: -webkit-filter .5s;
+  }
+  
+  .large-hollywood-div:hover {
+    -webkit-filter: grayscale(100%); 
+  }
+
 
 
 
