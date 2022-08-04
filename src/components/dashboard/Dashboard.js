@@ -19,7 +19,7 @@ function Dashboard() {
           </div> */}
           <div className="featured-div">
             <img
-              className="large-screwjack"
+              className="large-screwjack-img"
               alt="large-underneath-bottom"
               src={title}
             ></img>
