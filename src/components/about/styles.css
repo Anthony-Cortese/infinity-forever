@@ -36,13 +36,16 @@
 }
 
 .large-img {
-  min-height: 70%;
-  min-width: 70%;
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+    /* border: 35px solid #9AB8D7; */
+
 }
 
 .large {
-  height: 70%;
-  width: 70%;
+  height: 100%;
+  width: 100%;
   align-items: center;
 }
 
