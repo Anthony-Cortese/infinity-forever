@@ -1,11 +1,12 @@
 import React from "react";
 import "./styles.css";
-import title from "../../pages/screwjack/pictures/title.png";
+import title from "../../pages/screwjack/pictures/premiere.png";
 // import joint from "../../pages/hollywood/pictures/joint.png";
 // import together from "../../pages/wolf/pictures/Together.png";
 // import sean from "../../pages/underneath/pictures/Sean at car.png";
 // import siggy from "../../pages/screwjack/pictures/siggy.png";
 import Films from "./Films";
+import { Link } from "react-router-dom";
 // import Coming from "./Coming";
 
 function Dashboard() {
@@ -18,11 +19,16 @@ function Dashboard() {
             <div className="sign-dash1"> </div>
           </div> */}
           <div className="featured-div">
-            <img
-              className="large-screwjack-img"
-              alt="large-underneath-bottom"
-              src={title}
-            ></img>
+            {/* <div className="title-div">
+              <h1 className="featured-title">New Release</h1>
+            </div> */}
+            <Link to="/Screwjack">
+              <img
+                className="large-screwjack-img"
+                alt="large-underneath-bottom"
+                src={title}
+              ></img>
+            </Link>
           </div>
         </div>
 

@@ -37,7 +37,7 @@
 
 .about-info {
   min-width: 80%;
-  border: 2px solid snow;
+  /* border: 2px solid snow; */
 }
 
 .large-img {
@@ -325,11 +325,11 @@ background-color: #840b2a; */
 }
 
 .together {
-  -webkit-transition: -webkit-filter 1s;
+  transition: -webkit-filter 1s;
 }
 
 .together:hover {
-  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); 
 }
   
 
@@ -390,6 +390,65 @@ background-color: #840b2a; */
     font-size: 1rem;
   }
 
+  .imdb {
+    font-size: 1.2rem;
+    color: rgb(189, 189, 3);
+    text-decoration: none;
+  }
+
+  #solo-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .big-solo-div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border: 1px dotted whitesmoke;
+    max-height: 80%;
+  } 
+
+  .big-solo-div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    max-height: 80%;
+    border: 1px dotted whitesmoke;
+  } 
+
+  .big-solo-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .big-solo-img1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .main-solo-img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .main-solo-img1 {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .infinity-font4 {
+    font-size: 1.4rem;
+  }
+
   @media only screen and (max-width: 800px)  {
     .flicker-slow {
       font-size: 8rem;
@@ -397,9 +456,7 @@ background-color: #840b2a; */
     .flicker-slow1 {
       font-size: 8rem;
     }
-    .flicker-slow2 {
-      /* font-size: 6rem; */
-    }
+  
     .flicker-slow3 {
       font-size: 500% 
     }

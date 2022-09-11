@@ -1,35 +1,68 @@
 
+
+/* .new-movie {
+    border: 3px solid gray;
+    width: 100%;
+  height: 70%;
+} */
+
+Video {
+    border: 2px dotted gray;
+}
+
 #oscars-top {
-    max-width: 100%;
-    max-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* max-width: 70%; */
 }
 
+/* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;  */
+  /* background-color: rgba(0,0,0,.4); */
+
+Video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .article {
     color: white;
+    font-size: 2.2rem;
+    margin: 0;
 }
 
 #infinity-oscar {
     position: relative;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .oscar-div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content:  space-evenly;
     text-align: left;
 }
 .oscar-div::before {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content:  center;
+    align-items: center;
     text-align: left;
     background-color: rgba(177, 173, 173, 0.231);
     opacity: .9;
-    /* box-shadow: 3px solid gray; */
     -moz-box-shadow:    inset 0 10px 10px #aeaeae;
     -webkit-box-shadow: inset 0 10px 10px #aeaeae;
     box-shadow:         inset 0 10px 10px #aeaeae;
@@ -43,6 +76,7 @@
 .oscar-div::before {
     content: ' ';
     display: block;
+    align-items: center;
     position: absolute;
     left: 0;
     top: 0;
@@ -53,11 +87,11 @@
     align-items: center;
 }
 .oscar-info {
-    max-width: 45%;
+    max-width: 38%;
 
 }
 .oscar-info1 {
-    max-width: 45%;
+    max-width: 38%;
 }
 .oscars-banner {
     min-width: 100%;
@@ -66,9 +100,17 @@
 }
 
 .oscars-img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border: 8px solid black;
+}
+
+.about-oscars {
+    text-align: left;
+}
+
+.new-movie {
+    display: flex;
 }
 
 /* .oscar-img1 {
@@ -91,10 +133,17 @@
     opacity: .6;
 }
 
+.oscar-oscar {
+    width: 80%;
+    height: auto;
+}
+
 .oscar-icons {
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .oscars-icon {
@@ -114,7 +163,7 @@
     align-items: center;
     overflow-y: hidden;
     overflow-x: scroll;
-    max-height: 25%;
+    min-height: 15%;
     background-color: black;
     border: 2px dotted white;
    color: white;
@@ -127,8 +176,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-height: 20%;
-    width: 99%;
+    max-height: 10%;
+    max-width: 100%;
     object-fit: cover;
     
     /* border: 1px solid blue; */
@@ -138,15 +187,15 @@
 
 .oscar-img {
     justify-content: space-between;
-    max-height: 30%;
-    width: 30%;
-    border-radius: 4.5rem;
+    max-height: 25%;
+    width: 22%;
+    border-radius: 3.5rem;
     padding: 2rem;
 }
 
 .oscar-img1 {
-    max-height: 30%;
-    width: 30%;
+    max-height: 25%;
+    width: 25%;
     padding: 1rem;
 }
 
@@ -156,10 +205,7 @@
     align-items: center;
 }
 
-.oscar-div {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .coming {
     height: auto;
@@ -185,3 +231,34 @@
     overflow-y: hidden;
     overflow-x: scroll;
   }
+
+
+  @media only screen and (max-width: 700px) {
+    .oscar-div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        
+    }
+
+   .oscar-words {
+    font-size: .65rem;
+  }
+
+  .article {
+    font-size: .95rem;
+  }
+
+  .oscar-info {
+    max-width: 88%;
+
+}
+.oscar-info1 {
+    max-width: 88%;
+}
+
+}
+  

@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BsYoutube } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
-import { RiMenuAddFill } from "react-icons/ri";
+// import { RiMenuAddFill } from "react-icons/ri";
 import "./styles.css";
 import logo from "./loko.png";
+// import Menu from "./Menu";
 
 function Navbar() {
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
+  console.log(showSidebar);
+
   return (
-    <section id="navbar">
+    <section id="navbar" className="section1">
       <div className="full-navbar">
         <div className="navigation-div">
           <nav className="navigation">
@@ -40,9 +46,18 @@ function Navbar() {
             <AiFillInstagram className="logos-icon" />
           </a>
 
-          <a href="/Menu" style={{ textDecoration: "none" }}>
+          {/* <a href="/Menu" style={{ textDecoration: "none" }}>
+            <RiMenuAddFill className="logos-icon1" alt="stairs" />
+          </a> */}
+
+          {/* <button
+            id="sidebar-button"
+            onClick={() => showSidebar}
+            className="media-button"
+          >
             <RiMenuAddFill className="logos-icon1" />
-          </a>
+          </button>
+          {sidebar && <Menu />} */}
           {/* <label id="hamburger" for="toggle"></label>
           <input type="checkbox" id="toggle" /> */}
         </div>

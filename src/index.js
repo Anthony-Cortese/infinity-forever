@@ -5,6 +5,22 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
+// import Video from "../src/assets/video";
+// import Mike from "../src/pages/oscars/pictures/taylor.mp4";
+
+// const VIDEO = {
+//   src:Mike,
+//   type:'video/mp4'
+//  };
+
+//  class App1 extends Component {
+//   constructor(props){
+//     super(props)
+//     this.state = {
+//       src: VIDEO.src,
+//       type:VIDEO.type
+//     }
+//   };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

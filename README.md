@@ -1,103 +1,76 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  
+  <a href="https://github.com/Anthony-Cortese/infinity-forever">
+    <img src="./images/logo.png" alt="Logo" width="120" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center" size="54px">Infinity Forever Productions</h1>
 
-## Available Scripts
+  <p align="center">
+    <br />
+    <a href="www.infinityforeverproductions.com"><strong>View Website</strong></a>
+    <br />
+    <br />
+</div>
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+In a past life I was in film school and learning how to become a successful film Director. I wrote and directed my first film, and created my own Production Company called Infinity Forever. After my brother became a professional actor and our Cousins invited us to their yearly Oscar's Party-- After this kind of news it was time to make more films!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I decided to build out a website for Infinity Forever to house all our films, pictures from our various shoots, our Instagram and YouTube pages, as well as all our upcoming futures, and a complete write up "About Us" and our Company. This website was created with our fans in mind, and whoever else is interested to check out our films.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**\***I am not 100% sold on our current logo-- I am always in the lab tweaking as much information as possible. There will be a new logo that we will introduce our next film with!
 
-### `npm test`
+![badge](https://img.shields.io/badge/license-MITLicense-brightorange)
+![https://reactjs.org](https://img.shields.io/badge/react-v16.13.1-blue)
+![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+yarn install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+yarn start
+```
 
-### `npm run eject`
+## Features/Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Logo](/images/logo1.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] This is our current logo. The idea is to have this logo represent Infinity & Forever-- This is a spiral staircase currently but I would love a far more simplistic design, and I cant wait to have this logo represent our brand all the way!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![New](/images/new.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [x] Currently "Screw Jack" is the first film we completed without sending it to the Oscars-- the release date is Fri. September 9th, 2022
 
-## Learn More
+![Films](/images/3.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] d
+  - [ ] Each button takes you to a new page, some buttons even have hover capabilities.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Trailers](/images/4.png)
 
-### Code Splitting
+- [ ] The play buttons on the home screen next to movie posters will open up a trailer which is unique to the button pressed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Coming](/images/5.png)
 
-### Analyzing the Bundle Size
+- [ ] The "Coming Soon to Theatres" section are all short films that I have directed/edited for my amatuer Production Company
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Responsive](/images/6.png)
 
-### Making a Progressive Web App
+- [ ] Responsive website allows information to be hidden and revealed with a horizontal scroll.
+  - [ ] Featured Today, Fan Favorites, Exclusive Videos, Explore, On TV, Trending Celebrities, and Top News all have the horizontal scroll functionality!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Credits
 
-### Advanced Configuration
+![Credits](/images/brothers.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-<>
-      <section id="about">
-        <div className="about-div">
-          <div className="flicker-slow">
-            <h3 className="neon_text">
-              <span className="flicker-slow">Infi</span>
-              <span className="flicker-slow1">nity</span>{" "}
-            </h3>
-            <h3 className="neon_text">
-              <span className="flicker-slow">F</span>
-              <span className="flicker-fast">∞</span>
-              <span className="flicker-slow1">ever</span>
-            </h3>
-          </div>
-        </div>
-  <section id="about">
-        <div className="about-div">
-          <h3 className="logo-name">
-            <span className="flicker-slow">In</span>
-            <span className="flicker-slow1">fin</span>
-            <span className="flicker-slow">ity</span>
-            {/* </h3>
-          <h3 className="logo-name1"> */}
-            <span className="flicker-slow">F</span>
-            <span className="flicker-slow2">∞</span>
-            <span className="flicker-slow1">eve</span>
-            <span className="flicker-slow">r</span>
-          </h3>
-          <p className="flicker-slow3">productions</p>
-        </div>
-      </section>
+- [x] The two brothers-- WE ARE INFINITY FOREVER!

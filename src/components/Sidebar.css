@@ -1,0 +1,192 @@
+.header {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    inset: 0 0   0 75%  ;
+    background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png");
+    background-color: #A68045;
+    z-index: 999;
+
+    /* height: 4rem; */
+}
+
+.side-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-mobile {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    inset: 0 0  0 90%;
+    background-color: rgba(252, 30, 30, 0);
+    display: none;
+    height: 6rem;
+    width: 5rem;
+}
+.you {
+    margin: 0;
+}
+
+.side-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav .ul-item {
+    display: flex;
+    flex-direction: column;
+    margin-block: .5rem;
+    list-style: none;
+}
+
+nav .ul-item.oicon a {
+    display: none;
+}
+
+nav .ul-item.oicon li::after {
+    content: '';
+    position: absolute;
+    width: 1%;
+    height: 4%;
+    background-color: #fff;
+    right: 0;
+}
+
+nav .ul-item li {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+    padding-block: 1.2rem;
+    margin-block: .1rem;
+}
+
+nav .ul-item li:hover {
+    background-color: rgba(5, 231, 239, 0.603);
+    width: 140%;
+}
+
+nav .ul-item li .icon {
+    color: rgb(242, 246, 245);
+    margin-inline: 1rem;
+    font-size: 30px;
+}
+
+nav .ul-item li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border-left: 1px solid white;
+    padding-left: 2rem;
+}
+.menu-icon {
+    margin-inline: 1rem;
+    position: relative;
+    left: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.menu-icon .menu {
+    color: rgb(0, 242, 255);
+    margin-block: 1rem;
+    cursor: pointer;
+    font-size: 30px;
+    /* margin-right: 1rem; */
+    bottom: .4rem;
+}
+
+.menu {
+    position: relative;
+    right: .8rem;
+}
+
+nav .ul-item li:hover {
+    transition: 1s ease;
+}
+
+.logos-icon3 {
+    display: none;
+}
+
+.side1 {
+    font-size: 12px;
+}
+
+li {
+    margin: 0;
+}
+
+.links {
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 800px){ 
+    .header-mobile {
+        display: block;
+    }
+
+    .logos-icon3 {
+        width: 3.5rem;
+        height: 3.5rem;
+        position: relative;
+        left: 3rem;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+    }
+
+    .links {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .header {
+        inset: 0 0 0 55%;
+    }
+
+    .menu-icon .menu {
+        position: relative;
+        right: 1.8rem;
+    }
+
+    .menu {
+        position: relative;
+        right: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+
+    .menu-icon .menu {
+        position: relative;
+        right: 2.2rem;
+    }
+
+    .menu {
+        position: relative;
+        right: 2.7rem;
+    }
+} 
+
+@media screen and (max-width: 400px){
+    .links {
+        font-size: .7rem;
+    }
+
+    .menu-icon .menu {
+        position: relative;
+        right: 3.3rem;
+    }
+
+    .menu {
+        position: relative;
+        right: 2.7rem;
+    }
+}

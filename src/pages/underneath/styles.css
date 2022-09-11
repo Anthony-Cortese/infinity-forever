@@ -41,8 +41,8 @@
 
 .large-bottom-img {
     object-fit: contain;
-    max-height: 78%;
-    max-width: 88%;
+    max-height: 98%;
+    max-width: 98%;
     /* border: 1px solid black; */
 }
 .film-info {
@@ -96,12 +96,12 @@
 }
 
 .large-bottom-div {
-    -webkit-transition: -webkit-filter .5s;
+    transition: -webkit-filter .5s;
     cursor: pointer;
   }
   
   .large-bottom-div:hover {
-    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
   }
 
 #bottom-info {

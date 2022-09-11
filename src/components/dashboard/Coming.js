@@ -13,33 +13,34 @@ function Coming() {
           <div className="card">
             <Link to="/Untitled" style={{ textDecoration: "none" }}>
               <span className="coming-soon">
-                <p>SLC OSCARS PROJECT</p>
-                <p>2023</p>
+                <p className="coming-font">SLC OSCARS PROJECT</p>
+                <p className="coming-font">2023</p>
               </span>
             </Link>
           </div>
           <div className="card">
-            <Link to="/Untitled" style={{ textDecoration: "none" }}>
+            <Link to="/New" style={{ textDecoration: "none" }}>
               <span className="coming-soon">
-                <p>SLC OSCARS PROJECT</p>
-                <p>2023</p>
+                <p className="coming-font">SLC OSCARS PROJECT</p>
+                {/* <p className="coming-font">COLLABORATION</p> */}
+                <p className="coming-font">2023</p>
               </span>
             </Link>
           </div>
 
           <div className="card">
-            <Link to="/Untitled" style={{ textDecoration: "none" }}>
+            <Link to="/Horror" style={{ textDecoration: "none" }}>
               <span className="coming-soon">
-                <p>HORROR SHORT FILM</p>
-                <p>2023</p>
+                <p className="coming-font">HORROR SHORT FILM</p>
+                <p className="coming-font">2023</p>
               </span>
             </Link>
           </div>
           <div className="card">
             <Link to="/TV" style={{ textDecoration: "none" }}>
               <span className="coming-soon">
-                <p>TV SHOW PILOT</p>
-                <p>2024</p>
+                <p className="coming-font">TV SHOW PILOT</p>
+                <p className="coming-font">2024</p>
               </span>
             </Link>
           </div>

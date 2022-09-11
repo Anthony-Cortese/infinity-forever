@@ -35,14 +35,13 @@ function Screwjack() {
                 src={screw}
               ></img>
             </button>
-
-            <div className="screw-info">
-              <h4 className="title">FILM</h4>
-              <h4 className="title">SCREW JACK</h4>
-              <h4 className="title">2021</h4>
-            </div>
-            <div className="dotted-line"></div>
           </div>
+          <div className="screw-info">
+            <h4 className="title">FILM</h4>
+            <h4 className="title">SCREW JACK</h4>
+            <h4 className="title">2021</h4>
+          </div>
+          <div className="dotted-line"></div>
         </div>
       </section>
 

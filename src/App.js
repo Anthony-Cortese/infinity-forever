@@ -9,15 +9,20 @@ import Bottom from "./pages/underneath/Bottom";
 import Wolf from "./pages/wolf/Wolf";
 import "./App.css";
 import Untitled from "./pages/untitled/Untitled";
+import Horror from "./pages/untitled/Horror";
 import Oscars from "./pages/oscars/Oscars";
 import TV from "./pages/untitled/TV";
 import Menu from "./components/Menu";
+import Uncut from "./pages/untitled/Uncut";
+import Sidebar from "./components/Sidebar";
+import External from "./assets/External";
+import Instagram from "./assets/Instagram";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-
+      <Sidebar />
       <Routes>
         <Route exact path="/" element={<About />}></Route>
         <Route exact path="/Menu" element={<Menu />}></Route>
@@ -31,9 +36,13 @@ function App() {
           exact
           element={<Hollywood />}
         ></Route>
+        <Route path="/Horror" exact element={<Horror />}></Route>
+        <Route path="/New" exact element={<Uncut />}></Route>
         <Route path="/Untitled" exact element={<Untitled />}></Route>
         <Route path="/TV" exact element={<TV />}></Route>
         <Route path="/SLCOscars" exact element={<Oscars />}></Route>
+        <Route path="/Youtube" element={<External />} />
+        <Route path="/Instagram" element={<Instagram />} />
       </Routes>
       <Copyright />
     </div>

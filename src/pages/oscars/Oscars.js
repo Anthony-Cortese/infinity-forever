@@ -7,76 +7,31 @@ import oscar6 from "./pictures/2.png";
 import oscar3 from "./pictures/3.png";
 import oscar4 from "./pictures/4.png";
 import oscar5 from "./pictures/5.png";
+import oscar11 from "./pictures/11.png";
+import oscar12 from "./pictures/12.png";
+import oscar13 from "./pictures/13.png";
+import oscar14 from "./pictures/14.png";
+import oscar15 from "./pictures/15.png";
+import oscar16 from "./pictures/16.png";
 import { BsYoutube } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
-// import ReactPlayer from "react-player";
+// import video from "./pictures/taylor.mp4";
+// import Video from "../../assets/Video";
 
 function Oscars() {
   return (
     <>
-      <section id="oscars-top">
+      <section id="infinity-oscar">
         <div className="oscars-banner">
           <img className="oscars-img" src={oscar} alt="oscar" />
         </div>
-        <div className="about-oscars">
-          <h3 className="yellow">
-            The best Oscar Party in the world happens in Salt Lake City, Utah.
-            We live by the motto: "better to be a king for a night than a
-            schmuck for a lifetime." Pretending to be famous is kind of our
-            thing
-          </h3>
-          <br />
-          <h3 className="yellow">
-            *still waiting on our Big Daddy's Pizza sponsorship
-          </h3>
-        </div>
-        <div className="oscar-icons">
-          <a href="https://www.youtube.com/user/scottkpaulsen/featured">
-            <BsYoutube className="oscars-icon" />
-          </a>
-          <a href="https://www.instagram.com/oscarpartyslc/">
-            <AiFillInstagram className="oscars-icon1" />
-          </a>
-        </div>
-        <div className="trailers-div">
-          <div className="coming">
-            <div className="new-movie-div">
-              {/* <div className="new-movie">
-                <ReactPlayer
-                  url="https://www.youtube.com/watch?v=p2nsSiv3tno"
-                  controls
-                  // playbackRate = {2}
-                  height="221.97px"
-                  width="394.63px"
-                />
-              </div> */}
-              {/* <div className="new-movie">
-                <ReactPlayer
-                  url="https://www.youtube.com/watch?v=RDFPJRw_lS0"
-                  controls
-                  // playbackRate = {2}
-                  height="221.97px"
-                  width="394.63px"
-                />
-              </div> */}
-              {/* <div className="new-movie">
-                <ReactPlayer
-                  url="https://www.youtube.com/watch?v=pE1V9EycaUA"
-                  controls
-                  // playbackRate = {2}
-                  height="221.97px"
-                  width="394.63px"
-                />
-              </div> */}
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="infinity-oscar">
         <div className="oscar-div">
           <div className="oscar-info">
-            <h1 className="article">Infinity Forever at the SLC Oscars</h1>
+            <h1 className="article">
+              An interview with the brothers of Infinity Forever---
+            </h1>
             <p className="oscar-words">
+              <strong>Provo, UT--- </strong>
               The Cortese brothers, the brains behind Infinity Forever had
               watched their cousins Parker and Scott Paulsen year after year
               attend the SLC Oscars and had always hoped one day they would be
@@ -146,21 +101,21 @@ function Oscars() {
               idea that we set into motion.”
             </p>
             <p className="oscar-words">
-              Anthony: “There were 2 main keys to make this film work— we had to
-              tell a story on the TV for the 2 characters to critique, and we
-              HAD to have the old TV displaying this story we created.” said
-              Anthony.{" "}
+              <strong>Anthony:</strong> “There were 2 main keys to make this
+              film work— we had to tell a story on the TV for the 2 characters
+              to critique, and we HAD to have the old TV displaying this story
+              we created.” said Anthony.{" "}
             </p>
             <p className="oscar-words">
-              Sean: “yes but also we needed Provo stereotypes that hopefully
-              everyone would be able to pick up on— we had a list of 10-12
-              different scenes that could fit into the documentary, we shot
-              around 8 or 9 scenes but our overall film was to long so we had to
-              cut them.”{" "}
+              <strong>Sean:</strong> “yes but also we needed Provo stereotypes
+              that hopefully everyone would be able to pick up on— we had a list
+              of 10-12 different scenes that could fit into the documentary, we
+              shot around 8 or 9 scenes but our overall film was to long so we
+              had to cut them.”{" "}
             </p>
             <p className="oscar-words">
-              Anthony: “Technically a Directors Cut does exist— maybe one day we
-              will release it.”{" "}
+              <strong>Anthony:</strong> “Technically a Directors Cut does exist—
+              maybe one day we will release it.”{" "}
             </p>
             <p className="oscar-words">
               The days right after the Oscar Party had the brothers already
@@ -172,15 +127,44 @@ function Oscars() {
           </div>
         </div>
       </section>
-      <section id="oscar-photos">
-        <div className="oscar-pics">
-          <img className="oscar-img" alt="oscar" src={oscar1}></img>
-          <img className="oscar-img" alt="oscar" src={oscar6}></img>
-          <img className="oscar-img" alt="oscar" src={oscar2}></img>
-          <img className="oscar-img" alt="oscar" src={oscar3}></img>
-          <img className="oscar-img" alt="oscar" src={oscar4}></img>
-          <img className="oscar-img" alt="oscar" src={oscar5}></img>
+      <section id="oscars-top">
+        <div className="oscar-oscar">
+          <p>
+            For more information please check out the Oscar Party SLC Instagram
+            or Youtube page to check out all the entries from the previous years
+            and to stay caught up on the very best Oscars party in SLC. It's
+            better to be King or Queen for a night than a schmuck for a
+            lifetime!
+          </p>
         </div>
+        <div className="oscar-icons">
+          <a href="https://www.youtube.com/user/scottkpaulsen/featured">
+            <BsYoutube className="oscars-icon" />
+          </a>
+          <a href="https://www.instagram.com/oscarpartyslc/">
+            <AiFillInstagram className="oscars-icon1" />
+          </a>
+        </div>
+        {/* <div className="new-movie">
+          <div className="overlay"></div>
+          <Video className="video-component" />
+        </div> */}
+        <section id="oscar-photos">
+          <div className="oscar-pics">
+            <img className="oscar-img" alt="oscar" src={oscar11}></img>
+            <img className="oscar-img" alt="oscar" src={oscar16}></img>
+            <img className="oscar-img" alt="oscar" src={oscar12}></img>
+            <img className="oscar-img" alt="oscar" src={oscar13}></img>
+            <img className="oscar-img" alt="oscar" src={oscar14}></img>
+            <img className="oscar-img" alt="oscar" src={oscar15}></img>
+            <img className="oscar-img" alt="oscar" src={oscar1}></img>
+            <img className="oscar-img" alt="oscar" src={oscar6}></img>
+            <img className="oscar-img" alt="oscar" src={oscar2}></img>
+            <img className="oscar-img" alt="oscar" src={oscar3}></img>
+            <img className="oscar-img" alt="oscar" src={oscar4}></img>
+            <img className="oscar-img" alt="oscar" src={oscar5}></img>
+          </div>
+        </section>
       </section>
     </>
   );
