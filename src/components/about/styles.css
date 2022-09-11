@@ -329,7 +329,7 @@ background-color: #840b2a; */
 }
 
 .together:hover {
-  filter: grayscale(100%); 
+  filter: grayscale(50%); 
 }
   
 
