@@ -24,9 +24,9 @@ function App() {
       <Navbar />
       <Sidebar />
       <Routes>
-        <Route exact path="/" element={<About />}></Route>
+        <Route exact path="/" element={<Dashboard />}></Route>
         <Route exact path="/Menu" element={<Menu />}></Route>
-        <Route path="/Productions" exact element={<Dashboard />}></Route>
+        <Route path="/About" exact element={<About />}></Route>
 
         <Route path="/Screwjack" exact element={<Screwjack />}></Route>
         <Route path="/UnderneathTheBottom" exact element={<Bottom />}></Route>

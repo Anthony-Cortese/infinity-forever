@@ -18,11 +18,11 @@ function Navbar() {
       <div className="full-navbar">
         <div className="navigation-div">
           <nav className="navigation">
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/About" style={{ textDecoration: "none" }}>
               {" "}
               <ul>ABOUT</ul>{" "}
             </Link>
-            <Link to="/Productions" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               <ul>PRODUCTIONS</ul>
             </Link>
             <Link to="/SLCOscars" style={{ textDecoration: "none" }}>

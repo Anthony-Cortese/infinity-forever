@@ -25,11 +25,11 @@ function Sidebar() {
         <nav>
           <ul className={active ? "ul-item" : "ul-item oicon"}>
             <li className="links">
-              <Link to="/">ABOUT</Link>
+              <Link to="/About">ABOUT</Link>
             </li>
 
             <li className="links">
-              <Link to="/Productions">PRODUCTIONS</Link>
+              <Link to="/">PRODUCTIONS</Link>
             </li>
 
             <li className="links">
