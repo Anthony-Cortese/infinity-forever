@@ -17,7 +17,7 @@
 
 ## Description
 
-In a past life I was in film school and learning how to become a successful film Director. I wrote and directed my first film, and created my own Production Company called Infinity Forever. After my brother became a professional actor and our Cousins invited us to their yearly Oscar's Party-- After this kind of news it was time to make more films!
+In a past life I was in film school and learning how to become a successful film Director. I wrote and directed my first film, and created my own Production Company called Infinity Forever. After my brother became a professional actor and our Cousins invited us to their yearly Oscar's Party-- It became time to make more films!
 
 I decided to build out a website for Infinity Forever to house all our films, pictures from our various shoots, our Instagram and YouTube pages, as well as all our upcoming futures, and a complete write up "About Us" and our Company. This website was created with our fans in mind, and whoever else is interested to check out our films.
 
