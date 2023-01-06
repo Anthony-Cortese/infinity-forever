@@ -1,7 +1,8 @@
 #dashboard-div {
-    background-image: url("https://i.ibb.co/tC1Pk2v/premiere.jpg") ;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png") ;
+    /* background-image: url("https://i.ibb.co/tC1Pk2v/premiere.jpg") ; */
+    background-repeat: repeat;
+    /* background-size: contain; */
     background-position: center;
     object-fit: contain;
     background-color: #5E0100;
@@ -86,7 +87,17 @@
 /* .large-screwjack-img:hover {
     
 } */
+.coming-font {
+    color: aqua;
+}
 
+.coming-font2 {
+    color: rgb(251, 8, 8);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 1.3rem;
+    font-style: bold;
+}
 .coming-scroll {
     display: flex;
     flex-direction: row;
@@ -114,7 +125,52 @@
     border: 1px dotted whitesmoke;
     text-align: center;
     border-radius: 12px;
-    background-image: url("https://i.ibb.co/DWLz8Zf/Untitled-1.png");
+    background-image: url("maze.jpeg");
+    cursor: pointer;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 20%;
+    border: 1px dotted whitesmoke;
+    text-align: center;
+    border-radius: 12px;
+    background-image: url("uncut.jpeg");
+    object-fit: fill;
+    color:aqua;
+    cursor: pointer;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 20%;
+    border: 1px dotted whitesmoke;
+    text-align: center;
+    border-radius: 12px;
+    background-image: url("weave.jpeg");
+    cursor: pointer;
+    /* opacity: .6; */
+}
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 20%;
+    border: 1px dotted whitesmoke;
+    text-align: center;
+    border-radius: 12px;
+    background-image: url("skee.png");
+    cursor: pointer;
+    /* opacity: .6; */
 }
 .coming-soon {
     height: 70%;
@@ -362,18 +418,16 @@
 }
 
 @media only screen and (max-width: 750px) {
-    .card {
+    /* .card {
         height: 52%;
         width: 22%;
         margin: 0;
-    }
+    } */
     .featured-title {
         font-size: 1.5rem;
     }
 
-    .coming-font {
-        font-size: .65rem;
-    }
+   
 }
 
 @media only screen and (max-width: 600px) {

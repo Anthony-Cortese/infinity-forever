@@ -21,7 +21,7 @@ function Untitled() {
 
             {/* <li className="title1">Sean Cortese</li> */}
             <li className="title1">
-              <strong>Starring:</strong> Sean Cortese, Anthony Cortese, Others
+              <strong>Starring:</strong> Sean Cortese and Sunny Mulldoon
             </li>
 
             <li className="title1">
@@ -33,10 +33,28 @@ function Untitled() {
           </div>
           <div className="bottom-description">
             <p className="film-description">
-              The script has been completed, but the project is being kept
-              heavily under wraps. This will be our official entry into the
-              Oscars for 2023! We will update you with more information as it
-              becomes available.
+              Filming begins in early January in preperation for the SLC OSCARS
+              2023. The scene is still being kept under wraps in hopes to
+              surprise the crowd. Filming should be finished by mid January and
+              will enter post production. Check back in for updates around the
+              date of the Oscar night! <br />
+              <br />
+              Check our{" "}
+              <a
+                className="updates"
+                href="https://www.instagram.com/infinityforeverproductions/"
+              >
+                Instagram
+              </a>{" "}
+              or{" "}
+              <a
+                className="updates"
+                href="https://www.youtube.com/channel/UCWaEaluGSg-on1BsWwrsOag"
+              >
+                YouTube
+              </a>{" "}
+              page for up to the minute updates and behind the scenes images
+              into the production!
             </p>
           </div>
         </div>

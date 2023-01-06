@@ -33,10 +33,30 @@ function TV() {
           </div>
           <div className="bottom-description">
             <p className="film-description">
-              The story has been in discussions for close to 10 years. There is
-              a basic outline for the story, but the scripts needs to be
-              written. The initial thought would be 5 episodes total-- currently
-              we have a plan for 3 total.
+              These are a compilation of true stories based on a real person we
+              knew. Some of the stories did not actually happen to him, so they
+              have been modified to answer the ultimate question "what would he
+              do in this scenario if he was with us". These stories are 100%
+              real, and yes so is this boy! Currently we have plans for 5
+              episodes with 3 stories completely fleshed out. This project is
+              still in the beginning stages but if all else fails we would at
+              least love to tell one of these stories. <br />
+              <br />
+              Check our{" "}
+              <a
+                className="updates"
+                href="https://www.instagram.com/infinityforeverproductions/"
+              >
+                Instagram
+              </a>{" "}
+              or{" "}
+              <a
+                className="updates"
+                href="https://www.youtube.com/channel/UCWaEaluGSg-on1BsWwrsOag"
+              >
+                YouTube
+              </a>{" "}
+              page for official confirmation on the status of this project!
             </p>
           </div>
         </div>
